@@ -1,2 +1,31 @@
-# DBNA
-Doing Business North America (DBNA) is predicated on the idea that a well-functioning economy has good rules. For our purposes, the focus is on rules that enable domestic small- to medium-sized businesses to get started,  locate an establishment, get electricity, and hire employees. The rules should also be clear about paying taxes and, if it comes to it, resolving insolvency.  The ease of doing business in a location is higher when the rules are clear and the steps involved are few.DBNA is the first major project of the Center for the Study of Economic Liberty (CSEL), a joint endeavor of the W.P. Carey School of Business and the School of Civic and Economic Thought and Leadership at Arizona State University. CSEL aims to become an international leader in research that effects liberty-enhancing public policy and increases public and academic awareness of the history and philosophy of economic liberty by leveraging our place, fusing academic research with policy engagement, and engaging globally to transform society. Information about the Center, its research activities and public programs can be found at csel.asu.edu.The project director for DBNA, and lead author of the 2019 Report, is Steve Slivinski, who also serves  as Senior Research Fellow at CSEL. Paul Bernert, CSEL’s research technician, coordinated the student team that collected the data from the United States and Canada and participated in writing  the methodological sections of the 2019 Report. José Torra and the Caminos de la Libertad collected the data for Mexico and advised on some of the methodological choices made.The DBNA project and 2019 Report would not have been possible without the assistance of both the School of Civic and Economic Thought and Leadership, directed by Paul Carrese, and the W.P. Carey School of Business, led by Dean Amy Hillman. Dean Hillman was instrumental in enabling us to initiate the project by arranging the generous support of Bill and Julie Kent for supporting the creation of the DBNA database and the production and issuance of the report based on the data. The Kent’s support has enabled both the early start to data collection that allowed the relatively speedy completion of the 2019 Report and an early start on an expanded range of variables for the 2020 Report. The 2019 DBNA report provides data that can drive many questions about city, state and national business regulations. As you read it, and look (of course!) for your favorite cities, what do you see that can improve the ease of doing business where you are?
+# Doing Business North America
+
+The Doing Business North America (DBNA) project annually provides objective measures of the scale and scope of business regulations in 115 cities across 92 states, provinces, and federal districts of the U.S., Canada, and Mexico.
+
+It uses these measures to score and rank cities in regard to how easy or difficult it is to set up, operate, and shut down a business.
+
+Visit our [website](https://dbna.asu.edu) to explore how your city compares to others across North America, and [contact us](https://dbna.asu.edu/contact) if you have any questions.
+
+### Goals
+
+- Provide objective measurements of regulatory conditions and make them publicly-available to researchers and policymakers.
+- Track the improvement or decline in local regulatory conditions and provide a context for thinking about policy reform.
+- Contribute to understanding which regulatory environments can produce the best economic outcomes for the largest number of people.
+
+### Methodology
+
+Futher documentation will be coming to this repository in time. However, plenty of documentation explaining our methodology can be found [here](https://dbna.asu.edu/methodology).
+
+## Contributing
+
+#### Fix/Edit Content
+
+If you see an error or a place where content should be updated or improved, let the [Project Director](https://isearch.asu.edu/profile/2653923) know and we will work to correct that as soon as possible.
+
+#### Financial Contribution
+
+If you wish to financially contribute to the [Center for the Study of Economic Liberty](https://csel.asu.edu/), please visit our [giving page](https://csel.asu.edu/about/giving). All contributions are greatly appreciated and work towards continuing projects such as this one.
+
+## License
+
+The data for this project (found in `_data`) is free to use and made publicly-available for research and scholarly use. Sourcing information will be included at a later time.
