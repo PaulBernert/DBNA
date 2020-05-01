@@ -14,7 +14,7 @@ Visit our [website](https://dbna.asu.edu) to explore how your city compares to o
 
 ### Methodology
 
-Futher documentation will be coming to this repository in time. However, plenty of documentation explaining our methodology can be found [here](https://dbna.asu.edu/methodology).
+The complete methodology for the 2020 Report (including steps on how to collect the data) is currently being populated to the [DBNA Wiki](https://github.com/PaulBernert/DBNA/wiki). In the meantime, an explanation of the 2019 Report's methodology can be found [here](https://dbna.asu.edu/methodology).
 
 ## Contributing
 
