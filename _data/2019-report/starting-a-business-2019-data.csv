@@ -1,0 +1,116 @@
+﻿Country,State,City,Region,Number of Procedures,Time,Cost
+Canada,Alberta,Calgary,Prairie Provinces,4,2,0.0077
+Canada,Alberta,Edmonton,Prairie Provinces,5,5,0.0072
+Canada,British Columbia,Vancouver,West Coast,6,35,0.0072
+Canada,Manitoba,Winnipeg,Prairie Provinces,2,4,0.0103
+Canada,New Brunswick,Moncton,Atlantic Region,2,10,0.0126
+Canada,Newfoundland and Labrador,St. Johns,Atlantic Region,2,30,0.0067
+Canada,Nova Scotia,Halifax,Atlantic Region,3,3,0.0058
+Canada,Ontario,Toronto,Central Canada,3,15,0.0073
+Canada,Ontario,Ottawa,Central Canada,3,15,0.0081
+Canada,Quebec,Quebec City,Central Canada,4,43,0.0023
+Canada,Saskatchewan,Saskatoon,Prairie Provinces,3,16,0.0068
+United States,Alabama,Birmingham,East South Central,5,9,0.0275
+United States,Alaska,Anchorage,Pacific,3,15,0.0019
+United States,Arizona,Phoenix,Mountain,5,3,0.0298
+United States,Arkansas,Little Rock,West South Central,10,63,0.0046
+United States,California,Los Angeles,Pacific,8,14,0.0037
+United States,California,San Diego,Pacific,7,17,0.0022
+United States,California,San Francisco,Pacific,10,48,0.0017
+United States,California,San Jose,Pacific,10,19,0.0022
+United States,Colorado,Denver,Pacific,6,1,0.0032
+United States,Connecticut,Bridgeport,New England,9,1,0.0097
+United States,Delaware,Wilmington,South Atlantic,8,3,0.0084
+United States,Florida,Jacksonville,South Atlantic,7,2,0.0153
+United States,Florida,Miami,South Atlantic,7,2,0.0168
+United States,Florida,Orlando,South Atlantic,7,2,0.0149
+United States,Florida,Tampa,South Atlantic,7,2,0.0128
+United States,Georgia,Atlanta,South Atlantic,7,2,0.0044
+United States,Hawaii,Honolulu,Pacific,4,1,0.0015
+United States,Idaho,Boise,Mountain,6,22,0.0047
+United States,Illinois,Chicago,East North Central,8,7,0.0256
+United States,Indiana,Indianapolis,East North Central,6,1,0.0053
+United States,Iowa,Des Moines,West North Central,6,1,0.003
+United States,Kansas,Wichita,West North Central,9,1,0.0079
+United States,Kentucky,Louisville,East South Central,5,1,0.0024
+United States,Louisiana,New Orleans,West South Central,5,1,0.0053
+United States,Maine,Portland,New England,5,21,0.0087
+United States,Maryland,Baltimore,South Atlantic,5,28,0.0149
+United States,Massachusetts,Boston,New England,5,7,0.0265
+United States,Michigan,Detroit,East North Central,5,1,0.0036
+United States,Michigan,Grand Rapids,East North Central,5,1,0.0043
+United States,Minnesota,Minneapolis,West North Central,7,3,0.0044
+United States,Mississippi,Jackson,East South Central,4,1,0.0014
+United States,Missouri,St. Louis,West North Central,6,8,0.0012
+United States,Montana,Billings,Mountain,6,2,0.006
+United States,Nebraska,Omaha,West North Central,7,24,0.0117
+United States,Nevada,Las Vegas,Mountain,7,3,0.002
+United States,New Hampshire,Manchester,New England,5,3,0.0034
+United States,New Jersey,Newark,Mid-Atlantic,6,3,0.0191
+United States,New Mexico,Albuquerque,Mountain,5,2,0.0025
+United States,New York,Buffalo,Mid-Atlantic,6,5,0.0121
+United States,New York,New York City,Mid-Atlantic,6,5,0.0076
+United States,New York,Rochester,Mid-Atlantic,6,5,0.0128
+United States,North Carolina,Charlotte,South Atlantic,5,8,0.0137
+United States,North Dakota,Fargo,West North Central,5,1,0.0082
+United States,Ohio,Cleveland,East North Central,5,1,0.0137
+United States,Ohio,Columbus,East North Central,5,1,0.0096
+United States,Oklahoma,Oklahoma City,West South Central,5,1,0.0081
+United States,Oregon,Portland,Pacific,5,1,0.0088
+United States,Pennsylvania,Philadelphia,Mid-Atlantic,8,1,0.029
+United States,Pennsylvania,Pittsburgh,Mid-Atlantic,8,1,0.0237
+United States,Rhode Island,Providence,New England,6,1,0.0104
+United States,South Carolina,Charleston,South Atlantic,4,7,0.0038
+United States,South Dakota,Sioux Falls,West North Central,4,7,0.0043
+United States,Tennessee,Nashville,East South Central,5,7,0.0103
+United States,Texas,Austin,West South Central,4,1,0.009
+United States,Texas,Dallas,West South Central,4,1,0.0109
+United States,Texas,Houston,West South Central,4,1,0.014
+United States,Texas,San Antonio,West South Central,4,1,0.014
+United States,Utah,Salt Lake City,Mountain,4,1,0.0085
+United States,Vermont,Burlington,New England,5,1,0.0069
+United States,Virginia,Arlington,South Atlantic,5,7,0.0024
+United States,Virginia,Virginia Beach,South Atlantic,5,7,0.0046
+United States,Washington,Seattle,Pacific,5,5,0.0057
+United States,Washington D.C.,District of Columbia,South Atlantic,5,5,0.0058
+United States,West Virginia,Charleston,South Atlantic,5,1,0.005
+United States,Wisconsin,Milwaukee,East North Central,5,2,0.0076
+United States,Wyoming,Cheyenne,Mountain,5,12,0.0063
+Mexico,Aguascalientes,Aguascalientes ,,7,27,0.0241
+Mexico,Baja California,Tijuana ,,5,3,0.0563
+Mexico,Baja California Sur,La Paz ,,n/a,11,n/a
+Mexico,Campeche,Campeche,,5,14,0.0933
+Mexico,Chiapas,Tuxtla Gutiérrez,,13,21,0.1359
+Mexico,Chihuahua,Chihuahua,,6,24,0.1086
+Mexico,Chihuahua,Juárez,,7,39,0.0669
+Mexico,Coahuila,Saltillo,,7,46,0.3574
+Mexico,Coahuila,Piedras Negras,,5,14,0.0261
+Mexico,Colima,Colima,,5,16,0.2945
+Mexico,Durango,Durango,,5,14,0.0514
+Mexico,Guanajuato,León,,4,14,0.0967
+Mexico,Guerrero,Acapulco,,n/a,11,n/a
+Mexico,Sonora,Hermosillo,,8,14,0.2088
+Mexico,Hidalgo,Pachuca,,7,61,0.0588
+Mexico,Jalisco,Guadalajara,,12,137,n/a
+Mexico,México,Ecatepec,,8,27,0.4123
+Mexico,México,Naucalpan,,6,21,0.1222
+Mexico,México,Nezahualcóyotl,,5,11,0.1222
+Mexico,México,Toluca,,4,21,0.1222
+Mexico,Mexico City,Mexico City,,9,10,0.249
+Mexico,Michoacán,Morelia,,4,14,n/a
+Mexico,Morelos,Cuernavaca,,10,91,0.1646
+Mexico,Nayarit,Tepic,,10,16,n/a
+Mexico,Nuevo León,San Pedro,,3,4,0.0483
+Mexico,Nuevo León,Monterrey,,3,18,0.0483
+Mexico,Oaxaca,Oaxaca,,n/a,11,n/a
+Mexico,Puebla,Puebla,,8,32,0.0234
+Mexico,Querétaro,Querétaro,,9,53,0.1716
+Mexico,Quintana Roo,Cancún,,n/a,11,n/a
+Mexico,San Luis Potosí,San Luis Potosí,,11,17,0.0608
+Mexico,Sinaloa,Culiacán,,13,11,0.0101
+Mexico,Tabasco,Villahermosa,,8,41,0.5265
+Mexico,Tamaulipas,Reynosa,,8,43,0.6166
+Mexico,Tlaxcala,Apizaco,,5,13,0.0117
+Mexico,Veracruz,Boca del Rio,,5,51,0.8513
+Mexico,Yucatán,Mérida,,6,22,0.2305
+Mexico,Zacatecas,Zacatecas,,10,96,0.1791
