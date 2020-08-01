@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Starting a Business | DBNA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="dbna.herokuapp.com">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Methodology</h1>
+    <h3>Starting a Business</h3>
+  </div>
+
+  <!--Create Containers-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>Starting <strong>a Business</strong></h1>
+        <h2>What Does Starting a Business Measure?</h2>
+        <hr>
+        <p>Doing Business North America records all procedures officially required for an entrepreneur to start up and formally operate a limited liability company, as well as the time
+          and cost to complete these procedures. These procedures include the processes entrepreneurs undergo when obtaining all necessary approvals, licenses, and permits, and completing
+          any required notifications, verifications, or inscriptions for the company and employees with relevant authorities.</p>
+
+        <p>After a study of laws, regulations, and publicly available information on business entry, a detailed list of the most common procedures was developed, along with the time
+          and cost to comply with each procedure under normal circumstances.</p>
+
+        <p>Information is also collected on the sequence in which procedures are to be completed and whether procedures may be carried out simultaneously. It is assumed that any
+          required information is readily available and that the entrepreneur will pay no bribes.</p>
+
+        <h2>Assumptions about the Business</h2>
+        <hr>
+        <p>To make the data comparable across economies, several assumptions about the business are used.</p>
+        <p><strong>The business:</strong></p>
+          <ul>
+            <li>Is a limited liability company. If there is more than one type of limited liability company in the economy, the limited liability form most common among domestic firms is chosen.</li>
+            <li>Operates in the economy’s largest business city. For 14 of the largest economies, the data for multiple cities is collected.</li>
+            <li>Is 100% domestically owned.</li>
+            <li>Has start-up capital of two times income per capita.</li>
+            <li>Performs general commercial activities, such as the production or sale to the public of goods or services. The business does not perform foreign trade activities and does not handle products subject to a special tax regime. </li>
+            <li>Does not qualify for any financial incentives or special benefits.</li>
+            <li>Has up to 50 employees.</li>
+            <li>Has a company deed that is 10 pages long.</li>
+          </ul>
+
+        <h2>Indicators</h2>
+        <p><strong>Number of Procedures</strong></p>
+        <p>A procedure is deﬁned as any interaction of the company founder with external parties. Procedures that must be completed in the same building but in different offices or at different
+          counters are counted as separate procedures. If the founder has to visit the same office several times for different sequential procedures, each is counted separately.
+          The founder is assumed to complete all procedures themselves, unless the use of such a third party is mandated by law. If the services of professionals are required, procedures
+          conducted by such professionals on behalf of the company are counted as separate procedures. Each electronic procedure is counted as a separate procedure. Only pre-incorporation
+          procedures that are officially required or commonly done in practice for an entrepreneur to formally operate a business are recorded.</p>
+
+        <p>Procedures required for official correspondence or transactions with public agencies are also included. For example, if a company seal or stamp is required on official documents,
+          such as tax declarations, obtaining the seal or stamp is counted. Similarly, if a company must open a bank account in order to complete any subsequent procedure,
+          this transaction is included as a procedure.</p>
+
+        <p>Only procedures required for all businesses are included. Industry-specific procedures are excluded.
+          Procedures that the company undergoes to connect to electricity, water, gas, and waste disposal services are not included in the Starting a Business indicators.</p>
+
+        <p><strong>Time (in Calendar Days)</strong></p>
+        <p>Time is recorded in calendar days. It is assumed that the minimum time required for each procedure is one day. Procedures that can be fully completed online are also considered to take one day.
+          Although procedures may take place simultaneously, they cannot start on the same day, unless procedures can be completed entirely online. The registration process is considered completed once
+          the company has received the final incorporation document or can officially commence business operations. It is assumed that the entrepreneur does not waste time and commits to completing
+          each remaining procedure without delay. The time that the entrepreneur spends on gathering information is not measured. It is assumed that the entrepreneur is aware of all entry requirements
+          and their sequence from the beginning but has had no prior contact with any of the officials involved.</p>
+
+        <p><strong>Cost (as a Percent of Income per Capita)</strong></p>
+        <p>Cost is recorded as a percentage of the economy’s income per capita. It includes all official fees and fees for legal or professional services if such services are required by law or commonly used in practice.
+          Fees for purchasing and legalizing company books are included if these transactions are required by law. In all cases the cost excludes bribes.</p>
+
+        <h2>How the 'Starting a Business' Category is Ranked and Scored<h2>
+        <p>The ‘Starting a Business’ category was ranked and scored using the following three indicators:</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <p dir="ltr">
+                  <strong>Topic / Indicator</strong>
+                </p>
+              </td>
+              <td>
+                <p dir="ltr">
+                  <strong>Highest Indicator</strong>
+                </p>
+              </td>
+              <td>
+                <p dir="ltr">
+                  <strong>Lowest Indicator</strong>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Number of Procedures</p>
+              </td>
+              <td>
+                <p>3 procedures</p>
+              </td>
+              <td>
+                <p>13 procedures</p>
+              </td>
+              
+
+        </div>
+      </div>
+    </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>

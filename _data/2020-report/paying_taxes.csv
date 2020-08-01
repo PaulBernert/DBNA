@@ -91,41 +91,41 @@ United States,Washington,Seattle,Pacific,71362,51872,744955,0.21,0,0,0.21,0.24,0
 United States,West Virginia,Charleston,South Atlantic,24038,33833,47215,0.21,0.065,0,0.275,0.22,0.065,0.01,0.295,0.065,0.065,0,0,0.065,0.03,0.01,0.01,0,0,0.01,4.307935773,0.0059
 United States,Wisconsin,Milwaukee,East North Central,65498,21627,592025,0.21,0.079,0,0.289,0.22,0.0627,0,0.2827,0.079,0.079,0,0,0.0765,0.04,0,0,0,0,0,10,0.0293
 United States,Wyoming,Cheyenne,Mountain,97818,31981,63957,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,0,0,0,10,0.0062
-Mexico,Aguascalientes,Aguascalientes ,n/a,148.6,2038.464508,722250,0.3,n/a,n/a,0.3,0.35,0.125694426,n/a,0.475694426,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Baja California,Tijuana ,n/a,27587,2896.392845,1301000,0.3,n/a,n/a,0.3,0.35,0.099221729,n/a,0.449221729,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.018
-Mexico,Baja California Sur,La Paz ,n/a,29218,2822.094087,244219,0.3,n/a,n/a,0.3,0.35,0.083630064,n/a,0.433630064,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
-Mexico,Campeche,Campeche,n/a,22365,1943.158508,220389,0.3,n/a,n/a,0.3,0.35,0.135844415,n/a,0.485844415,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Chiapas,Tuxtla Gutiérrez,n/a,28306,975.8022874,537102,0.3,n/a,n/a,0.3,0.35,0.057206394,n/a,0.407206394,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Chihuahua,Chihuahua,n/a,95545,2330.525362,809232,0.3,n/a,n/a,0.3,0.35,0.11197826,n/a,0.46197826,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Chihuahua,Juárez,n/a,95545,2330.525362,1321000,0.3,n/a,n/a,0.3,0.35,0.11197826,n/a,0.46197826,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Coahuila,Saltillo,n/a,58531,2150.113658,709671,0.3,n/a,n/a,0.3,0.35,0.142978791,n/a,0.492978791,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Coahuila,Piedras Negras,n/a,58531,2150.113658,150178,0.3,n/a,n/a,0.3,0.35,0.142978791,n/a,0.492978791,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Colima,Colima,n/a,2172,2204.00138,711235,0.3,n/a,n/a,0.3,0.35,0.072459644,n/a,0.422459644,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Durango,Durango,n/a,48410,1768.034135,654876,0.3,n/a,n/a,0.3,0.35,0.058960224,n/a,0.408960224,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Guanajuato,León,n/a,11817,2426.814205,1239000,0.3,n/a,n/a,0.3,0.35,0.073275419,n/a,0.423275419,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.023
-Mexico,Guerrero,Acapulco,n/a,24819,1209.257114,673479,0.3,n/a,n/a,0.3,0.35,0.038017359,n/a,0.388017359,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Sonora,Hermosillo,n/a,69249,2751.348039,812229,0.3,n/a,n/a,0.3,0.35,0.065438831,n/a,0.415438831,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Hidalgo,Pachuca,n/a,8036,1480.020697,256584,0.3,n/a,n/a,0.3,0.35,0.063784449,n/a,0.413784449,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Jalisco,Guadalajara,n/a,30343,2272.846653,1495000,0.3,n/a,n/a,0.3,0.35,0.11890191,n/a,0.46890191,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,México,Ecatepec,n/a,8687,1808.771606,1655000,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,México,Naucalpan,n/a,8687,1808.771606,792211,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,México,Nezahualcóyotl,n/a,8687,1808.771606,1105000,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,México,Toluca,n/a,8687,1808.771606,489333,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Mexico City,Mexico City,n/a,573,3276.678206,8855000,0.3,n/a,n/a,0.3,0.35,0.924343566,n/a,1.274343566,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Michoacán,Morelia,n/a,22625,1437.237081,597511,0.3,n/a,n/a,0.3,0.35,0.068718045,n/a,0.418718045,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Morelos,Cuernavaca,n/a,1911,1759.957095,338650,0.3,n/a,n/a,0.3,0.35,0.074334166,n/a,0.424334166,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Nayarit,Tepic,n/a,10756,1921.115864,332863,0.3,n/a,n/a,0.3,0.35,0.048532101,n/a,0.398532101,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Nuevo León,San Pedro,n/a,24771,4583.176761,122009,0.3,n/a,n/a,0.3,0.35,0.164913488,n/a,0.514913488,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Nuevo León,Monterrey,n/a,24771,4583.176761,1136000,0.3,n/a,n/a,0.3,0.35,0.164913488,n/a,0.514913488,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Oaxaca,Oaxaca,n/a,36275,1110.071501,255029,0.3,n/a,n/a,0.3,0.35,0.052938754,n/a,0.402938754,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Puebla,Puebla,n/a,13224,1404.287443,1576000,0.3,n/a,n/a,0.3,0.35,0.122175221,n/a,0.472175221,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
-Mexico,Querétaro,Querétaro,n/a,4517,2372.607682,626495,0.3,n/a,n/a,0.3,0.35,0.161915347,n/a,0.511915347,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Quintana Roo,Cancún,n/a,42030,2722.675033,628306,0.3,n/a,n/a,0.3,0.35,0.077597879,n/a,0.427597879,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,San Luis Potosí,San Luis Potosí,n/a,23605,1600.832005,824229,0.3,n/a,n/a,0.3,0.35,0.108114944,n/a,0.458114944,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
-Mexico,Sinaloa,Culiacán,n/a,22471,2053.344418,785800,0.3,n/a,n/a,0.3,0.35,0.076979278,n/a,0.426979278,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Tabasco,Villahermosa,n/a,9756,1693.933611,353577,0.3,n/a,n/a,0.3,0.35,0.098393231,n/a,0.448393231,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
-Mexico,Tamaulipas,Reynosa,n/a,29106,2222.720261,612183,0.3,n/a,n/a,0.3,0.35,0.089606549,n/a,0.439606549,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Tlaxcala,Apizaco,n/a,1551,1438.233637,76492,0.3,n/a,n/a,0.3,0.35,0.055036159,n/a,0.405036159,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Veracruz,Boca del Rio,n/a,27683,1368.92638,138058,0.3,n/a,n/a,0.3,0.35,0.065455442,n/a,0.415455442,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
-Mexico,Yucatán,Mérida,n/a,16749,1956.869117,777615,0.3,n/a,n/a,0.3,0.35,0.075251634,n/a,0.425251634,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
-Mexico,Zacatecas,Zacatecas,n/a,137.5,1581.809672,1579000,0.3,n/a,n/a,0.3,0.35,0.075865167,n/a,0.425865167,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
+Mexico,Aguascalientes,Aguascalientes ,n/a,148.6,2038.464508,722250,0.3,n/a,n/a,0.3,0.35,0.125694426,n/a,0.475694426,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Baja California,Tijuana ,n/a,27587,2896.392845,1301000,0.3,n/a,n/a,0.3,0.35,0.099221729,n/a,0.449221729,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.018
+Mexico,Baja California Sur,La Paz ,n/a,29218,2822.094087,244219,0.3,n/a,n/a,0.3,0.35,0.083630064,n/a,0.433630064,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.025
+Mexico,Campeche,Campeche,n/a,22365,1943.158508,220389,0.3,n/a,n/a,0.3,0.35,0.135844415,n/a,0.485844415,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Chiapas,Tuxtla Gutiérrez,n/a,28306,975.8022874,537102,0.3,n/a,n/a,0.3,0.35,0.057206394,n/a,0.407206394,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Chihuahua,Chihuahua,n/a,95545,2330.525362,809232,0.3,n/a,n/a,0.3,0.35,0.11197826,n/a,0.46197826,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Chihuahua,Juárez,n/a,95545,2330.525362,1321000,0.3,n/a,n/a,0.3,0.35,0.11197826,n/a,0.46197826,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Coahuila,Saltillo,n/a,58531,2150.113658,709671,0.3,n/a,n/a,0.3,0.35,0.142978791,n/a,0.492978791,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Coahuila,Piedras Negras,n/a,58531,2150.113658,150178,0.3,n/a,n/a,0.3,0.35,0.142978791,n/a,0.492978791,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Colima,Colima,n/a,2172,2204.00138,711235,0.3,n/a,n/a,0.3,0.35,0.072459644,n/a,0.422459644,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Durango,Durango,n/a,48410,1768.034135,654876,0.3,n/a,n/a,0.3,0.35,0.058960224,n/a,0.408960224,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Guanajuato,León,n/a,11817,2426.814205,1239000,0.3,n/a,n/a,0.3,0.35,0.073275419,n/a,0.423275419,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.023
+Mexico,Guerrero,Acapulco,n/a,24819,1209.257114,673479,0.3,n/a,n/a,0.3,0.35,0.038017359,n/a,0.388017359,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Sonora,Hermosillo,n/a,69249,2751.348039,812229,0.3,n/a,n/a,0.3,0.35,0.065438831,n/a,0.415438831,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Hidalgo,Pachuca,n/a,8036,1480.020697,256584,0.3,n/a,n/a,0.3,0.35,0.063784449,n/a,0.413784449,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Jalisco,Guadalajara,n/a,30343,2272.846653,1495000,0.3,n/a,n/a,0.3,0.35,0.11890191,n/a,0.46890191,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,México,Ecatepec,n/a,8687,1808.771606,1655000,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,México,Naucalpan,n/a,8687,1808.771606,792211,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,México,Nezahualcóyotl,n/a,8687,1808.771606,1105000,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,México,Toluca,n/a,8687,1808.771606,489333,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Mexico City,Mexico City,n/a,573,3276.678206,8855000,0.3,n/a,n/a,0.3,0.35,0.924343566,n/a,1.274343566,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Michoacán,Morelia,n/a,22625,1437.237081,597511,0.3,n/a,n/a,0.3,0.35,0.068718045,n/a,0.418718045,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Morelos,Cuernavaca,n/a,1911,1759.957095,338650,0.3,n/a,n/a,0.3,0.35,0.074334166,n/a,0.424334166,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Nayarit,Tepic,n/a,10756,1921.115864,332863,0.3,n/a,n/a,0.3,0.35,0.048532101,n/a,0.398532101,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Nuevo León,San Pedro,n/a,24771,4583.176761,122009,0.3,n/a,n/a,0.3,0.35,0.164913488,n/a,0.514913488,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Nuevo León,Monterrey,n/a,24771,4583.176761,1136000,0.3,n/a,n/a,0.3,0.35,0.164913488,n/a,0.514913488,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Oaxaca,Oaxaca,n/a,36275,1110.071501,255029,0.3,n/a,n/a,0.3,0.35,0.052938754,n/a,0.402938754,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Puebla,Puebla,n/a,13224,1404.287443,1576000,0.3,n/a,n/a,0.3,0.35,0.122175221,n/a,0.472175221,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.025
+Mexico,Querétaro,Querétaro,n/a,4517,2372.607682,626495,0.3,n/a,n/a,0.3,0.35,0.161915347,n/a,0.511915347,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Quintana Roo,Cancún,n/a,42030,2722.675033,628306,0.3,n/a,n/a,0.3,0.35,0.077597879,n/a,0.427597879,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,San Luis Potosí,San Luis Potosí,n/a,23605,1600.832005,824229,0.3,n/a,n/a,0.3,0.35,0.108114944,n/a,0.458114944,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.02
+Mexico,Sinaloa,Culiacán,n/a,22471,2053.344418,785800,0.3,n/a,n/a,0.3,0.35,0.076979278,n/a,0.426979278,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Tabasco,Villahermosa,n/a,9756,1693.933611,353577,0.3,n/a,n/a,0.3,0.35,0.098393231,n/a,0.448393231,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.025
+Mexico,Tamaulipas,Reynosa,n/a,29106,2222.720261,612183,0.3,n/a,n/a,0.3,0.35,0.089606549,n/a,0.439606549,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Tlaxcala,Apizaco,n/a,1551,1438.233637,76492,0.3,n/a,n/a,0.3,0.35,0.055036159,n/a,0.405036159,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Veracruz,Boca del Rio,n/a,27683,1368.92638,138058,0.3,n/a,n/a,0.3,0.35,0.065455442,n/a,0.415455442,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.03
+Mexico,Yucatán,Mérida,n/a,16749,1956.869117,777615,0.3,n/a,n/a,0.3,0.35,0.075251634,n/a,0.425251634,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.025
+Mexico,Zacatecas,Zacatecas,n/a,137.5,1581.809672,1579000,0.3,n/a,n/a,0.3,0.35,0.075865167,n/a,0.425865167,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,0.025
