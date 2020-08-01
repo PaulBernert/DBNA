@@ -1,1 +1,1 @@
-web: gunicorn dbna.app:app
+web: gunicorn site.app:app
