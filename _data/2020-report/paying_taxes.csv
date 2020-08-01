@@ -1,0 +1,131 @@
+﻿Country,State,City,Region,State / Providence Area (in Square Miles),Income per Capita,Population,Federal Corporate Income Tax Rate,State Corporate Income Marginal Tax Rate,City Corporate Income Marginal Tax Rate,Corporate Income Effective Tax Rate,Federal Personal Income Tax Rate,State Personal Income Marginal Tax Rate,City Personal Income Marginal Tax Rate,Personal Income Effective Tax Rate,State Corporate Income Highest Tax Rate,State Corporate Income Lowest Tax Rate,City Corporate Income Highest Tax Rate,City Corporate Income Lowest Tax Rate,State Personal Income Highest Tax Rate,State Personal Income Lowest Tax Rate,City Personal Income Highest Tax Rate,City Personal Income Lowest Tax Rate,Gross Receipts Tax Base,Gross Receipts Tax Base Score,Gross Receipts Tax Rate,Gross Receipts Tax Rate Score,Commercial Property Effective Tax Rate
+Canada,Alberta,Calgary,Prairie Provinces,255541,58439,1336000,0.09,0,0,0.09,0.26,0.1,0,0.36,0,0,0,0,0.15,0.1,0,0,0,0,n/a,n/a,0.022
+Canada,Alberta,Edmonton,Prairie Provinces,255541,60131.25,4371000,0.09,0,0,0.09,0.205,0.1,0,0.305,0,0,0,0,0.15,0.1,0,0,0,0,n/a,n/a,0.0219
+Canada,British Columbia,Vancouver,West Coast,364764,44299.5,610000,0.09,0.02,0,0.11,0.205,0.147,0,0.352,0.1681,0.02,0,0,0.168,0.0506,0,0,0,0,n/a,n/a,0.0093
+Canada,Manitoba,Winnipeg,Prairie Provinces,250116,40281,705244,0.09,0,0,0.09,0.205,0.174,0,0.379,0.12,0,0,0,0.174,0.108,0,0,0,0,n/a,n/a,0.0242
+Canada,New Brunswick,Moncton,Atlantic Region,28150,35962.5,85198,0.09,0.12,0,0.21,0.205,0.1482,0,0.3532,0.14,0.025,0,0,0.203,0.0968,0,0,0,0,n/a,n/a,n/a
+Canada,Newfoundland and Labrador,St. Johns,Atlantic Region,156453,47432.25,212501,0.09,0.03,0,0.12,0.205,0.173,0,0.378,0.15,0.03,0,0,0.183,0.087,0,0,0,0,n/a,n/a,n/a
+Canada,Nova Scotia,Halifax,Atlantic Region,21345,34669.5,434140,0.09,0.03,0,0.12,0.205,0.06,0,0.265,0.16,0.03,0,0,0.21,0.0879,0,0,0,0,n/a,n/a,0.0343
+Canada,Ontario,Ottawa,Central Canada,415600,44909.25,940179,0.09,0.035,0,0.125,0.205,0,0,0.205,0.115,0.035,0,0,0.1316,0.0505,0,0,0,0,n/a,n/a,0.027
+Canada,Ontario,Toronto,Central Canada,415600,44909.25,3041200,0.09,0.035,0,0.125,0.24,0.1116,0,0.3516,0.115,0.035,0,0,0.1316,0.0505,0,0,0,0,n/a,n/a,0.0228
+Canada,Quebec,Montreal,Central Canada,644000,39288,1873840,0.09,0,0,0.09,0.205,0.2575,0,0.4625,0,0,0,0,0.2575,0.15,0,0,0,0,n/a,n/a,0.038
+Canada,Quebec,Quebec City,Central Canada,644000,39288,147043,0.09,0,0,0.09,0.205,0.2575,0,0.4625,0,0,0,0,0.2575,0.15,0,0,0,0,n/a,n/a,0.0348
+Canada,Saskatchewan,Saskatoon,Prairie Provinces,251700,52029.75,260767,0.09,0.02,0,0.11,0.26,0.145,0,0.405,0.12,0.02,0,0,0.145,0.105,0,0,0,0,n/a,n/a,0.0153
+United States,Alabama,Birmingham,East South Central,52419,22993,209880,0.21,0.065,0,0.275,0.22,0.05,0.01,0.28,0.065,0.065,0,0,0.05,0.02,0.01,0.01,0,0,0,10,0.0033
+United States,Alaska,Anchorage,Pacific,663300,38977,291538,0.21,0.07,0,0.28,0.22,0,0,0.22,0.094,0,0,0,0,0,0,0,0,0,0,10,0.0144
+United States,Arizona,Mesa,Mountain,113998,27851,508958,0.21,0.049,0,0.259,0.22,0.0424,0,0.2624,0.049,0.049,0,0,0.0454,0.0259,0,0,0,0,0,10,0.0178
+United States,Arizona,Phoenix,Mountain,113998,27870,1660272,0.21,0.049,0,0.259,0.22,0.0417,0,0.2617,0.049,0.049,0,0,0.045,0.0259,0,0,0,0,0,10,0.023
+United States,Arizona,Tucson,Mountain,113998,22645,545975,0.21,0.049,0.026,0.285,0.22,0.0336,0,0.2536,0.049,0.049,0.026,0.026,0.0454,0.0259,0,0,0,0,0,10,0.0239
+United States,Arkansas,Little Rock,West South Central,53179,34546,197881,0.21,0.065,0,0.275,0.22,0.069,0,0.289,0.065,0.01,0,0,0.069,0.009,0,0,0,0,0,10,0.065
+United States,California,Los Angeles,Pacific,163696,31563,3990456,0.21,0.0884,0.0001,0.2985,0.22,0.093,0,0.313,0.0884,0.0884,0.0005,0.0001,0.133,0.01,0,0,0,0,0,10,0.0122
+United States,California,San Diego,Pacific,163696,37112,1425976,0.21,0.0884,0,0.2984,0.22,0.093,0,0.313,0.0884,0.0884,0,0,0.133,0.01,0,0,0,0,0,10,0.0118
+United States,California,San Francisco,Pacific,163696,59510,883305,0.21,0.0884,0,0.2984,0.24,0.093,0,0.333,0.0884,0.0884,0,0,0.133,0.01,0,0,0,0,0.0008,9.544634862,0.0077
+United States,California,San Jose,Pacific,163696,40275,1030119,0.21,0.0884,0,0.2984,0.22,0.093,0,0.313,0.0884,0.0884,0,0,0.133,0.01,0,0,0,0,0,10,0.0129
+United States,Colorado,Aurora,Pacific,104185,28854,374114,0.21,0.0463,0,0.2563,0.22,0.0463,0,0.2663,0.0463,0.0463,0,0,0.0463,0.0463,0,0,0,0,0,10,0.0061
+United States,Colorado,Colorado Springs,Pacific,104185,32539,472688,0.21,0.0463,0,0.2563,0.22,0.0463,0.13,0.3963,0.0463,0.0463,0,0,0.0463,0.0463,0.25,0.13,0,0,0,10,0.017
+United States,Colorado,Denver,Pacific,104185,38991,716492,0.21,0.0463,0,0.2563,0.22,0.0463,0,0.2663,0.0463,0.0463,0,0,0.0463,0.0463,0,0,0,0,0,10,0.024
+United States,Connecticut,Bridgeport,New England,5543,22806,144900,0.21,0.075,0,0.285,0.22,0.05,0,0.27,0.075,0.075,0,0,0.0699,0.03,0,0,0,0,0,10,0.0381
+United States,Delaware,Wilmington,South Atlantic,2489,30601,70635,0.21,0.087,0,0.297,0.22,0.066,0.015,0.301,0.087,0.087,0,0,0.066,0.022,0.015,0.015,0,0,0.0075,5.73095183,0.0086
+United States,District of Columbia,Washington D.C.,South Atlantic,68.34,50833,713244,0.21,0,0.0825,0.2925,0.24,0.085,0.085,0.41,0,0,0.0825,0.0825,0.0895,0.04,0.0895,0.04,0,0,0,10,0.0132
+United States,Florida,Jacksonville,South Atlantic,65755,27486,903889,0.21,0.055,0,0.265,0.22,0,0,0.22,0.055,0.055,0,0,0,0,0,0,0,0,0,10,0.018
+United States,Florida,Miami,South Atlantic,65755,25067,470914,0.21,0.055,0,0.265,0.22,0,0,0.22,0.055,0.055,0,0,0,0,0,0,0,0,0,10,0.0198
+United States,Florida,Orlando,South Atlantic,65755,28117,285713,0.21,0.055,0,0.265,0.22,0,0,0.22,0.055,0.055,0,0,0,0,0,0,0,0,0,10,0.0101
+United States,Florida,Tampa,South Atlantic,65755,32869,392890,0.21,0.055,0,0.265,0.22,0,0,0.22,0.055,0.055,0,0,0,0,0,0,0,0,0,10,0.0102
+United States,Georgia,Atlanta,South Atlantic,59425,40595,498044,0.21,0.0575,0,0.2675,0.22,0.06,0,0.28,0.0575,0.0575,0,0,0.06,0.01,0,0,0,0,0,10,0.0174
+United States,Hawaii,Honolulu,Pacific,10931,33776,347397,0.21,0.064,0,0.274,0.22,0.0825,0,0.3025,0.064,0.044,0,0,0.11,0.014,0,0,0,0,0,10,0.0046
+United States,Idaho,Boise,Mountain,83642,32147,228790,0.21,0.0693,0,0.2793,0.22,0.074,0,0.294,0.0693,0.0693,0,0,0.074,0.016,0,0,0,0,0,10,0.0061
+United States,Illinois,Chicago,East North Central,57915,32560,2705994,0.21,0.095,0,0.305,0.22,0.0495,0,0.2695,0.095,0.095,0,0,0.0495,0.0495,0,0,0,0,0,10,0.0386
+United States,Indiana,Indianapolis,East North Central,36418,26232,867125,0.21,0.0575,0,0.2675,0.22,0.0323,0.0202,0.2725,0.0575,0.0575,0,0,0.0323,0.0323,0.0202,0.0202,0,0,0,10,0.0311
+United States,Iowa,Des Moines,West North Central,56272,26494,216853,0.21,0.12,0,0.33,0.22,0.0792,0,0.2992,0.12,0.06,0,0,0.0898,0.0036,0,0,0,0,0,10,0.0153
+United States,Kansas,Wichita,West North Central,82277,26527,389255,0.21,0.07,0,0.28,0.22,0.057,0,0.277,0.07,0.04,0,0,0.057,0.031,0,0,0,0,0,10,0.0274
+United States,Kentucky,Lexington,East South Central,40409,32965,323780,0.21,0.05,0,0.26,0.22,0.058,0.0225,0.3005,0.05,0.05,0,0,0.06,0.02,0.0225,0.0225,0,0,0,10,0.0098
+United States,Kentucky,Louisville,East South Central,40409,28975,620118,0.21,0.05,0,0.26,0.22,0.05,0.022,0.292,0.05,0.05,0,0,0.05,0.05,0.022,0.022,0,0,0,10,0.0139
+United States,Louisiana,New Orleans,West South Central,52378,29275,391006,0.21,0.08,0,0.29,0.22,0.06,0,0.28,0.08,0.04,0,0,0.06,0.02,0,0,0,0,0,10,0.008
+United States,Maine,Portland,New England,35385,32221,66417,0.21,0.0893,0,0.2993,0.22,0.0715,0,0.2915,0.0893,0.035,0,0,0.0715,0.058,0,0,0,0,0.0057,6.755523391,0.0206
+United States,Maryland,Baltimore,South Atlantic,12407,28488,602495,0.21,0.0825,0,0.2925,0.22,0.0475,0.0003,0.2678,0.0825,0.0825,0,0,0.0575,0.02,0.0003,0.0003,0,0,0,10,0.011
+United States,Massachusetts,Boston,New England,10565,39686,694583,0.21,0.08,0,0.29,0.22,0.051,0,0.271,0.08,0.08,0,0,0.051,0.051,0,0,0,0,0,10,0.0122
+United States,Michigan,Detroit,East North Central,96716,27838,672662,0.21,0.06,0,0.27,0.22,0.0425,0.024,0.2865,0.06,0.06,0,0,0.0425,0.0425,0.024,0.024,1,10,0.008,5.446348618,0.0413
+United States,Michigan,Grand Rapids,East North Central,96716,23225,200217,0.21,0.06,0,0.27,0.22,0.0425,0.015,0.2775,0.06,0.06,0,0,0.0425,0.0425,0.015,0.015,1,10,0.008,5.446348618,0.0155
+United States,Minnesota,Minneapolis,West North Central,86943,35259,425403,0.21,0.098,0,0.308,0.22,0.0705,0,0.2905,0.098,0.098,0,0,0.0985,0.0535,0,0,0,0,0,10,0.0345
+United States,Minnesota,St. Paul,West North Central,86943,30036,307695,0.21,0.098,0,0.308,0.22,0.0705,0,0.2905,0.098,0.098,0,0,0.0985,0.0535,0,0,0,0,0,10,0.0115
+United States,Mississippi,Jackson,East South Central,48430,35308,164422,0.21,0.05,0,0.26,0.22,0.05,0,0.27,0.05,0.03,0,0,0.05,0.03,0,0,0,0,0,10,0.0082
+United States,Missouri,Kansas City,West North Central,69704,31143,491918,0.21,0.0625,0,0.2725,0.22,0.054,0.01,0.284,0.0625,0.0625,0,0,0.054,0.015,0.01,0.01,0,0,0,10,0.0276
+United States,Missouri,St. Louis,West North Central,69704,26739,302838,0.21,0.0625,0,0.2725,0.22,0.059,0.01,0.289,0.0625,0.0625,0,0,0.059,0.015,0.01,0.01,0,0,0,10,0.0099
+United States,Montana,Billings,Mountain,147040,31854,109550,0.21,0.0675,0,0.2775,0.22,0.069,0,0.289,0.0675,0.0675,0,0,0.069,0.01,0,0,0,0,0,10,0.0089
+United States,Nebraska,Lincoln,West North Central,77421,30013,287401,0.21,0.0781,0,0.2881,0.22,0.0684,0,0.2884,0.0781,0.0558,0,0,0.0684,0.0246,0,0,0,0,0,10,0.0182
+United States,Nebraska,Omaha,West North Central,77421,30222,468262,0.21,0.0781,0,0.2881,0.22,0.0684,0,0.2884,0.0781,0.0558,0,0,0.0684,0.0246,0,0,0,0,0,10,0.0206
+United States,Nevada,Henderson,Mountain,110567,37861,310390,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,0,0,0.0033,8.121618805,0.007
+United States,Nevada,Las Vegas,Mountain,110567,27650,644644,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,0,0,0.0033,8.121618805,0.0112
+United States,New Hampshire,Manchester,New England,9350,29681,112525,0.21,0.077,0,0.287,0.22,0,0,0.22,0.077,0.077,0,0,0.05,0.05,0,0,0,0,0,10,0.0226
+United States,New Jersey,Newark,Mid-Atlantic,8729,19313,282090,0.21,0.115,0,0.325,0.22,0.035,0.01,0.265,0.105,0.065,0,0,0.0897,0.014,0.01,0.01,0,0,0,10,0.0276
+United States,New Mexico,Albuquerque,Mountain,121697,28230,560218,0.21,0.048,0,0.258,0.22,0.049,0,0.269,0.059,0.048,0,0,0.049,0.017,0,0,0,0,0,10,0.0151
+United States,New York,Buffalo,Mid-Atlantic,54556,22294,256304,0.21,0.065,0.35,0.625,0.22,0.0633,0.14,0.4233,0.065,0.065,0.35,0.35,0.0882,0.04,0.25,0.13,0,0,0,10,0.0263
+United States,New York,New York City,Mid-Atlantic,54556,35761,8398761,0.21,0.065,0.065,0.34,0.22,0.0633,0.0388,0.3221,0.065,0.065,0.09,0.0443,0.0882,0.04,0.0388,0.0308,0,0,0,10,0.0397
+United States,New York,Rochester,Mid-Atlantic,54556,21054,206284,0.21,0.065,0,0.275,0.22,0.005,0,0.225,0.065,0.065,0,0,0.0882,0.04,0,0,0,0,0,10,0.0235
+United States,North Carolina,Charlotte,South Atlantic,53819,34687,872498,0.21,0.025,0.35,0.585,0.22,0.0525,0.14,0.4125,0.025,0.025,0.35,0.35,0.0525,0.0525,0.25,0.13,0,0,0,10,0.0122
+United States,North Carolina,Greensboro,South Atlantic,53819,28502,294722,0.21,0.025,0,0.235,0.22,0.0525,0,0.2725,0.025,0.025,0,0,0.0525,0.0525,0,0,0,0,0,10,0.0633
+United States,North Carolina,Raleigh,South Atlantic,53819,36875,469298,0.21,0.025,0,0.235,0.22,0.0525,0,0.2725,0.025,0.025,0,0,0.0525,0.0525,0,0,0,0,0,10,0.0103
+United States,North Dakota,Fargo,West North Central,70762,31866,124844,0.21,0.0431,0,0.2531,0.22,0.0204,0,0.2404,0.0431,0.0141,0,0,0.029,0.011,0,0,0,0,0,10,0.0132
+United States,Ohio,Cincinnati,East North Central,44825,29156,302605,0.21,0,0.021,0.231,0.22,0.0285,0.021,0.2695,0,0,0.021,0.021,0.048,0,0.021,0.021,0,0,0.0026,8.520063301,0.0181
+United States,Ohio,Cleveland,East North Central,44825,20085,383793,0.21,0,0,0.21,0.22,0.0285,0.025,0.2735,0,0,0,0,0.048,0,0.025,0.025,0,0,0.0026,8.520063301,0.0267
+United States,Ohio,Columbus,East North Central,44825,26778,892533,0.21,0,0,0.21,0.22,0.0285,0.025,0.2735,0,0,0,0,0.048,0,0.025,0.025,0,0,0.0026,8.520063301,0.0216
+United States,Oklahoma,Oklahoma City,West South Central,69899,28365,649021,0.21,0.06,0,0.27,0.22,0.05,0,0.27,0.06,0.06,0,0,0.05,0.005,0,0,0,0,0,10,0.0131
+United States,Oklahoma,Tulsa,West South Central,69899,29764,400669,0.21,0.06,0,0.27,0.22,0.05,0,0.27,0.06,0.06,0,0,0.05,0.005,0,0,0,0,0,10,0.0144
+United States,Oregon,Portland,Pacific,98466,36492,653115,0.21,0.076,0.022,0.308,0.22,0.09,0,0.31,0.076,0.066,0.022,0.022,0.099,0.05,0,0,1,10,0.057,-22.44476609,0.0232
+United States,Pennsylvania,Philadelphia,Mid-Atlantic,46055,24811,1584138,0.21,0.0999,0.0387,0.3486,0.22,0.0307,0.0387,0.2894,0.0999,0.0999,0.0387,0.0387,0.0307,0.0307,0.0387,0.0387,0,0,0.0014,9.203111008,0.0187
+United States,Pennsylvania,Pittsburgh,Mid-Atlantic,46055,30397,301048,0.21,0.0999,0,0.3099,0.22,0.0307,0.03,0.2807,0.0999,0.0999,0,0,0.0307,0.0307,0.03,0.03,0,0,0.006,6.584761464,0.0206
+United States,Rhode Island,Providence,New England,1212,24051,179335,0.21,0.07,0,0.28,0.22,0.0375,0,0.2575,0.07,0.07,0,0,0.0599,0.0375,0,0,0,0,0,10,0.0181
+United States,South Carolina,Charleston,South Atlantic,32020,35587,136208,0.21,0.05,0,0.26,0.22,0.07,0,0.29,0.05,0.05,0,0,0.07,0.03,0,0,0,0,0,10,0.0177
+United States,South Dakota,Sioux Falls,West North Central,77184,31161,181883,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,0,0,0,10,0.0143
+United States,Tennessee,Memphis,East South Central,42180,24243,650618,0.21,0.065,0,0.275,0.22,0.03,0,0.25,0.065,0.065,0,0,0.03,0.03,0,0,0,0,0,10,0.0298
+United States,Tennessee,Nashville,East South Central,42180,31109,669053,0.21,0.065,0,0.275,0.22,0.03,0,0.25,0.065,0.065,0,0,0.03,0.03,0,0,0,0,0,10,0.0173
+United States,Texas,Austin,West South Central,268597,37888,964254,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,1,10,0.0075,5.73095183,0.0225
+United States,Texas,Dallas,West South Central,268597,31260,1345047,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,1,10,0.0075,5.73095183,0.0266
+United States,Texas,Houston,West South Central,268597,24325,2325502,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,1,10,0.0075,5.73095183,0.0247
+United States,Texas,San Antonio,West South Central,268597,24325,1532233,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,1,10,0.0075,5.73095183,0.0259
+United States,Utah,Salt Lake City,Mountain,84899,32954,200591,0.21,0.0495,0,0.2595,0.22,0.05,0,0.27,0.0495,0.0495,0,0,0.05,0.05,0,0,0,0,0,10,0.0071
+United States,Vermont,Burlington,New England,9623,26011,42899,0.21,0.085,0,0.295,0.22,0.068,0,0.288,0.085,0.06,0,0,0.0895,0.0355,0,0,0,0,0,10,0.0183
+United States,Virginia,Arlington,South Atlantic,42775,67061,234965,0.21,0.06,0,0.27,0.24,0.0575,0,0.2975,0.06,0.06,0,0,0.0575,0.02,0,0,0,0,0.0036,7.950856878,0.043
+United States,Virginia,Virginia Beach,South Atlantic,42775,34608,450189,0.21,0.06,0,0.27,0.22,0.0575,0,0.2775,0.06,0.06,0,0,0.0575,0.02,0,0,0,0,0.0058,6.698602748,0.0098
+United States,Washington,Seattle,Pacific,71362,51872,744955,0.21,0,0,0.21,0.24,0,0,0.24,0,0,0,0,0,0,0,0,0,0,0.033,-8.783811949,0.0095
+United States,West Virginia,Charleston,South Atlantic,24038,33833,47215,0.21,0.065,0,0.275,0.22,0.065,0.01,0.295,0.065,0.065,0,0,0.065,0.03,0.01,0.01,0,0,0.01,4.307935773,0.0059
+United States,Wisconsin,Milwaukee,East North Central,65498,21627,592025,0.21,0.079,0,0.289,0.22,0.0627,0,0.2827,0.079,0.079,0,0,0.0765,0.04,0,0,0,0,0,10,0.0293
+United States,Wyoming,Cheyenne,Mountain,97818,31981,63957,0.21,0,0,0.21,0.22,0,0,0.22,0,0,0,0,0,0,0,0,0,0,0,10,0.0062
+Mexico,Aguascalientes,Aguascalientes ,n/a,148.6,2038.464508,722250,0.3,n/a,n/a,0.3,0.35,0.125694426,n/a,0.475694426,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Baja California,Tijuana ,n/a,27587,2896.392845,1301000,0.3,n/a,n/a,0.3,0.35,0.099221729,n/a,0.449221729,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.018
+Mexico,Baja California Sur,La Paz ,n/a,29218,2822.094087,244219,0.3,n/a,n/a,0.3,0.35,0.083630064,n/a,0.433630064,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
+Mexico,Campeche,Campeche,n/a,22365,1943.158508,220389,0.3,n/a,n/a,0.3,0.35,0.135844415,n/a,0.485844415,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Chiapas,Tuxtla Gutiérrez,n/a,28306,975.8022874,537102,0.3,n/a,n/a,0.3,0.35,0.057206394,n/a,0.407206394,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Chihuahua,Chihuahua,n/a,95545,2330.525362,809232,0.3,n/a,n/a,0.3,0.35,0.11197826,n/a,0.46197826,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Chihuahua,Juárez,n/a,95545,2330.525362,1321000,0.3,n/a,n/a,0.3,0.35,0.11197826,n/a,0.46197826,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Coahuila,Saltillo,n/a,58531,2150.113658,709671,0.3,n/a,n/a,0.3,0.35,0.142978791,n/a,0.492978791,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Coahuila,Piedras Negras,n/a,58531,2150.113658,150178,0.3,n/a,n/a,0.3,0.35,0.142978791,n/a,0.492978791,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Colima,Colima,n/a,2172,2204.00138,711235,0.3,n/a,n/a,0.3,0.35,0.072459644,n/a,0.422459644,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Durango,Durango,n/a,48410,1768.034135,654876,0.3,n/a,n/a,0.3,0.35,0.058960224,n/a,0.408960224,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Guanajuato,León,n/a,11817,2426.814205,1239000,0.3,n/a,n/a,0.3,0.35,0.073275419,n/a,0.423275419,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.023
+Mexico,Guerrero,Acapulco,n/a,24819,1209.257114,673479,0.3,n/a,n/a,0.3,0.35,0.038017359,n/a,0.388017359,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Sonora,Hermosillo,n/a,69249,2751.348039,812229,0.3,n/a,n/a,0.3,0.35,0.065438831,n/a,0.415438831,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Hidalgo,Pachuca,n/a,8036,1480.020697,256584,0.3,n/a,n/a,0.3,0.35,0.063784449,n/a,0.413784449,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Jalisco,Guadalajara,n/a,30343,2272.846653,1495000,0.3,n/a,n/a,0.3,0.35,0.11890191,n/a,0.46890191,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,México,Ecatepec,n/a,8687,1808.771606,1655000,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,México,Naucalpan,n/a,8687,1808.771606,792211,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,México,Nezahualcóyotl,n/a,8687,1808.771606,1105000,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,México,Toluca,n/a,8687,1808.771606,489333,0.3,n/a,n/a,0.3,0.35,0.09888041,n/a,0.44888041,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Mexico City,Mexico City,n/a,573,3276.678206,8855000,0.3,n/a,n/a,0.3,0.35,0.924343566,n/a,1.274343566,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Michoacán,Morelia,n/a,22625,1437.237081,597511,0.3,n/a,n/a,0.3,0.35,0.068718045,n/a,0.418718045,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Morelos,Cuernavaca,n/a,1911,1759.957095,338650,0.3,n/a,n/a,0.3,0.35,0.074334166,n/a,0.424334166,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Nayarit,Tepic,n/a,10756,1921.115864,332863,0.3,n/a,n/a,0.3,0.35,0.048532101,n/a,0.398532101,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Nuevo León,San Pedro,n/a,24771,4583.176761,122009,0.3,n/a,n/a,0.3,0.35,0.164913488,n/a,0.514913488,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Nuevo León,Monterrey,n/a,24771,4583.176761,1136000,0.3,n/a,n/a,0.3,0.35,0.164913488,n/a,0.514913488,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Oaxaca,Oaxaca,n/a,36275,1110.071501,255029,0.3,n/a,n/a,0.3,0.35,0.052938754,n/a,0.402938754,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Puebla,Puebla,n/a,13224,1404.287443,1576000,0.3,n/a,n/a,0.3,0.35,0.122175221,n/a,0.472175221,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
+Mexico,Querétaro,Querétaro,n/a,4517,2372.607682,626495,0.3,n/a,n/a,0.3,0.35,0.161915347,n/a,0.511915347,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Quintana Roo,Cancún,n/a,42030,2722.675033,628306,0.3,n/a,n/a,0.3,0.35,0.077597879,n/a,0.427597879,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,San Luis Potosí,San Luis Potosí,n/a,23605,1600.832005,824229,0.3,n/a,n/a,0.3,0.35,0.108114944,n/a,0.458114944,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.02
+Mexico,Sinaloa,Culiacán,n/a,22471,2053.344418,785800,0.3,n/a,n/a,0.3,0.35,0.076979278,n/a,0.426979278,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Tabasco,Villahermosa,n/a,9756,1693.933611,353577,0.3,n/a,n/a,0.3,0.35,0.098393231,n/a,0.448393231,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
+Mexico,Tamaulipas,Reynosa,n/a,29106,2222.720261,612183,0.3,n/a,n/a,0.3,0.35,0.089606549,n/a,0.439606549,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Tlaxcala,Apizaco,n/a,1551,1438.233637,76492,0.3,n/a,n/a,0.3,0.35,0.055036159,n/a,0.405036159,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Veracruz,Boca del Rio,n/a,27683,1368.92638,138058,0.3,n/a,n/a,0.3,0.35,0.065455442,n/a,0.415455442,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.03
+Mexico,Yucatán,Mérida,n/a,16749,1956.869117,777615,0.3,n/a,n/a,0.3,0.35,0.075251634,n/a,0.425251634,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025
+Mexico,Zacatecas,Zacatecas,n/a,137.5,1581.809672,1579000,0.3,n/a,n/a,0.3,0.35,0.075865167,n/a,0.425865167,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,#VALUE!,n/a,n/a,0.025

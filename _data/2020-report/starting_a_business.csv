@@ -1,0 +1,131 @@
+﻿Country,State,City,Region,State / Providence Area (in Square Miles),Income per Capita,Population,Number of Procedures to Start a Business,Time (in Working Days) to Start a Business,Cost (in USD) to Start a Business,Cost (as a Percent of Income per Capita) to Start a Business
+Canada,Alberta,Calgary,Prairie Provinces,255541,58439,1336000,3,2,n/a,0.00773
+Canada,Alberta,Edmonton,Prairie Provinces,255541,60131.25,4371000,3,5,n/a,0.00715
+Canada,British Columbia,Vancouver,West Coast,364764,44299.5,610000,4,35,53.625,0.00718
+Canada,Manitoba,Winnipeg,Prairie Provinces,250116,40281,705244,3,4,341.25,0.01032
+Canada,New Brunswick,Moncton,Atlantic Region,28150,35962.5,85198,10,10,355.5,0.01263
+Canada,Newfoundland and Labrador,St. Johns,Atlantic Region,156453,47432.25,212501,3,30,n/a,0.00673
+Canada,Nova Scotia,Halifax,Atlantic Region,21345,34669.5,434140,3,3,341.0625,0.00575
+Canada,Ontario,Ottawa,Central Canada,415600,44909.25,940179,3,15,270,0.00811
+Canada,Ontario,Toronto,Central Canada,415600,44909.25,3041200,3,15,381.3225,0.0073
+Canada,Quebec,Montreal,Central Canada,644000,39288,1873840,5,n/a,n/a,n/a
+Canada,Quebec,Quebec City,Central Canada,644000,39288,147043,5,43,n/a,0.00232
+Canada,Saskatchewan,Saskatoon,Prairie Provinces,251700,52029.75,260767,4,16,191.25,0.00684
+United States,Alabama,Birmingham,East South Central,52419,22993,209880,5,4,262,0.011394772
+United States,Alaska,Anchorage,Pacific,663300,38977,291538,5,1,300,0.007696847
+United States,Arizona,Mesa,Mountain,113998,27851,508958,6,12,135,0.004847223
+United States,Arizona,Phoenix,Mountain,113998,27870,1660272,6,12,135,0.004843918
+United States,Arizona,Tucson,Mountain,113998,22645,545975,6,12,135,0.005961581
+United States,Arkansas,Little Rock,West South Central,53179,34546,197881,5,2,50,0.001447346
+United States,California,Los Angeles,Pacific,163696,31563,3990456,6,5,125,0.003960333
+United States,California,San Diego,Pacific,163696,37112,1425976,6,5,125,0.003368183
+United States,California,San Francisco,Pacific,163696,59510,883305,6,5,125,0.002100487
+United States,California,San Jose,Pacific,163696,40275,1030119,6,5,125,0.003103662
+United States,Colorado,Aurora,Pacific,104185,28854,374114,5,1,100,0.003465724
+United States,Colorado,Colorado Springs,Pacific,104185,32539,472688,5,1,100,0.003073235
+United States,Colorado,Denver,Pacific,104185,38991,716492,5,1,100,0.002564694
+United States,Connecticut,Bridgeport,New England,5543,22806,144900,5,4,170,0.007454179
+United States,Delaware,Wilmington,South Atlantic,2489,30601,70635,5,5,160,0.005228587
+United States,District of Columbia,Washington D.C.,South Atlantic,68.34,50833,713244,5,4,270,0.00531151
+United States,Florida,Jacksonville,South Atlantic,65755,27486,903889,5,5,175,0.006366878
+United States,Florida,Miami,South Atlantic,65755,25067,470914,5,5,175,0.00698129
+United States,Florida,Orlando,South Atlantic,65755,28117,285713,5,5,175,0.006223993
+United States,Florida,Tampa,South Atlantic,65755,32869,392890,5,5,175,0.005324166
+United States,Georgia,Atlanta,South Atlantic,59425,40595,498044,5,2,250,0.006158394
+United States,Hawaii,Honolulu,Pacific,10931,33776,347397,5,2,125,0.003700853
+United States,Idaho,Boise,Mountain,83642,32147,228790,5,15,170,0.005288207
+United States,Illinois,Chicago,East North Central,57915,32560,2705994,5,1,306,0.009398034
+United States,Indiana,Indianapolis,East North Central,36418,26232,867125,5,1,148,0.005641964
+United States,Iowa,Des Moines,West North Central,56272,26494,216853,5,5,100,0.003774439
+United States,Kansas,Wichita,West North Central,82277,26527,389255,5,1,210,0.007916462
+United States,Kentucky,Lexington,East South Central,40409,32965,323780,5,2,90,0.002730168
+United States,Kentucky,Louisville,East South Central,40409,28975,620118,5,2,90,0.003106126
+United States,Louisiana,New Orleans,West South Central,52378,29275,391006,5,4,180,0.006148591
+United States,Maine,Portland,New England,35385,32221,66417,5,15,275,0.008534806
+United States,Maryland,Baltimore,South Atlantic,12407,28488,602495,5,3,247,0.008670317
+United States,Massachusetts,Boston,New England,10565,39686,694583,5,1,570,0.014362748
+United States,Michigan,Detroit,East North Central,96716,27838,672662,5,8,100,0.003592212
+United States,Michigan,Grand Rapids,East North Central,96716,23225,200217,5,8,100,0.004305705
+United States,Minnesota,Minneapolis,West North Central,86943,35259,425403,5,1,205,0.005814118
+United States,Minnesota,St. Paul,West North Central,86943,30036,307695,5,1,205,0.006825143
+United States,Mississippi,Jackson,East South Central,48430,35308,164422,5,1,103,0.002917186
+United States,Missouri,Kansas City,West North Central,69704,31143,491918,5,1,102,0.003275214
+United States,Missouri,St. Louis,West North Central,69704,26739,302838,5,1,102,0.003814653
+United States,Montana,Billings,Mountain,147040,31854,109550,5,1,140,0.004395052
+United States,Nebraska,Lincoln,West North Central,77421,30013,287401,6,2,157,0.005231067
+United States,Nebraska,Omaha,West North Central,77421,30222,468262,6,2,157,0.005194891
+United States,Nevada,Henderson,Mountain,110567,37861,310390,5,2,475,0.012545892
+United States,Nevada,Las Vegas,Mountain,110567,27650,644644,5,2,475,0.017179024
+United States,New Hampshire,Manchester,New England,9350,29681,112525,5,5,182,0.006131869
+United States,New Jersey,Newark,Mid-Atlantic,8729,19313,282090,5,1,180,0.009320147
+United States,New Mexico,Albuquerque,Mountain,121697,28230,560218,5,2,100,0.003542331
+United States,New York,Buffalo,Mid-Atlantic,54556,22294,256304,6,1,255,0.011438055
+United States,New York,New York City,Mid-Atlantic,54556,35761,8398761,6,1,255,0.007130673
+United States,New York,Rochester,Mid-Atlantic,54556,21054,206284,6,1,255,0.012111713
+United States,North Carolina,Charlotte,South Atlantic,53819,34687,872498,5,14,157,0.004526191
+United States,North Carolina,Greensboro,South Atlantic,53819,28502,294722,5,14,177,0.006210091
+United States,North Carolina,Raleigh,South Atlantic,53819,36875,469298,5,14,177,0.0048
+United States,North Dakota,Fargo,West North Central,70762,31866,124844,5,28,210,0.006590096
+United States,Ohio,Cincinnati,East North Central,44825,29156,302605,5,7,149,0.00511044
+United States,Ohio,Cleveland,East North Central,44825,20085,383793,5,7,149,0.007418471
+United States,Ohio,Columbus,East North Central,44825,26778,892533,5,7,149,0.005564269
+United States,Oklahoma,Oklahoma City,West South Central,69899,28365,649021,5,3,154,0.005429226
+United States,Oklahoma,Tulsa,West South Central,69899,29764,400669,5,3,154,0.005174036
+United States,Oregon,Portland,Pacific,98466,36492,653115,5,2,150,0.00411049
+United States,Pennsylvania,Philadelphia,Mid-Atlantic,46055,24811,1584138,5,10,175,0.007053323
+United States,Pennsylvania,Pittsburgh,Mid-Atlantic,46055,30397,301048,5,10,175,0.005757147
+United States,Rhode Island,Providence,New England,1212,24051,179335,5,1,206,0.008565132
+United States,South Carolina,Charleston,South Atlantic,32020,35587,136208,5,2,200,0.00562003
+United States,South Dakota,Sioux Falls,West North Central,77184,31161,181883,5,1,200,0.006418279
+United States,Tennessee,Memphis,East South Central,42180,24243,650618,5,1,358,0.014767149
+United States,Tennessee,Nashville,East South Central,42180,31109,669053,5,1,358,0.011507924
+United States,Texas,Austin,West South Central,268597,37888,964254,5,2,325,0.008577914
+United States,Texas,Dallas,West South Central,268597,31260,1345047,5,3,300,0.009596929
+United States,Texas,Houston,West South Central,268597,24325,2325502,5,2,350,0.014388489
+United States,Texas,San Antonio,West South Central,268597,24325,1532233,5,2,350,0.014388489
+United States,Utah,Salt Lake City,Mountain,84899,32954,200591,5,8,126,0.003823512
+United States,Vermont,Burlington,New England,9623,26011,42899,5,3,175,0.006727923
+United States,Virginia,Arlington,South Atlantic,42775,67061,234965,5,1,150,0.00223677
+United States,Virginia,Virginia Beach,South Atlantic,42775,34608,450189,5,1,150,0.004334258
+United States,Washington,Seattle,Pacific,71362,51872,744955,5,5,250,0.004819556
+United States,West Virginia,Charleston,South Atlantic,24038,33833,47215,5,15,200,0.005911388
+United States,Wisconsin,Milwaukee,East North Central,65498,21627,592025,5,1,180,0.00832293
+United States,Wyoming,Cheyenne,Mountain,97818,31981,63957,5,1,152,0.004752822
+Mexico,Aguascalientes,Aguascalientes ,n/a,148.6,2038.464508,722250,7,27,49.08424908,0.024079031
+Mexico,Baja California,Tijuana ,n/a,27587,2896.392845,1301000,5,3,163.1606489,0.056332362
+Mexico,Baja California Sur,La Paz ,n/a,29218,2822.094087,244219,n/a,11,n/a,n/a
+Mexico,Campeche,Campeche,n/a,22365,1943.158508,220389,5,14,181.2710623,0.093286812
+Mexico,Chiapas,Tuxtla Gutiérrez,n/a,28306,975.8022874,537102,13,21,132.6007326,0.135888934
+Mexico,Chihuahua,Chihuahua,n/a,95545,2330.525362,809232,6,24,253.0612245,0.108585484
+Mexico,Chihuahua,Juárez,n/a,95545,2330.525362,1321000,7,39,155.844584,0.06687101
+Mexico,Coahuila,Saltillo,n/a,58531,2150.113658,709671,7,46,768.4981685,0.357422114
+Mexico,Coahuila,Piedras Negras,n/a,58531,2150.113658,150178,5,14,56.09628467,0.026089916
+Mexico,Colima,Colima,n/a,2172,2204.00138,711235,5,16,649.0020931,0.294465375
+Mexico,Durango,Durango,n/a,48410,1768.034135,654876,5,14,90.84249084,0.051380507
+Mexico,Guanajuato,León,n/a,11817,2426.814205,1239000,4,14,234.6792255,0.096702593
+Mexico,Guerrero,Acapulco,n/a,24819,1209.257114,673479,n/a,11,n/a,n/a
+Mexico,Sonora,Hermosillo,n/a,69249,2751.348039,812229,8,14,574.3851387,0.208764987
+Mexico,Hidalgo,Pachuca,n/a,8036,1480.020697,256584,7,61,87.01726845,0.058794629
+Mexico,Jalisco,Guadalajara,n/a,30343,2272.846653,1495000,12,137,908.895866,0.399893176
+Mexico,México,Ecatepec,n/a,8687,1808.771606,1655000,8,27,745.6828885,0.412259285
+Mexico,México,Naucalpan,n/a,8687,1808.771606,792211,6,21,221.0622711,0.122216796
+Mexico,México,Nezahualcóyotl,n/a,8687,1808.771606,1105000,5,11,221.0622711,0.122216796
+Mexico,México,Toluca,n/a,8687,1808.771606,489333,4,21,221.0622711,0.122216796
+Mexico,Mexico City,Mexico City,n/a,573,3276.678206,8855000,9,10,815.8032444,0.248972646
+Mexico,Michoacán,Morelia,n/a,22625,1437.237081,597511,4,14,n/a,n/a
+Mexico,Morelos,Cuernavaca,n/a,1911,1759.957095,338650,10,91,289.6912611,0.16460132
+Mexico,Nayarit,Tepic,n/a,10756,1921.115864,332863,10,16,n/a,n/a
+Mexico,Nuevo León,San Pedro,n/a,24771,4583.176761,122009,3,4,221.4877028,0.048326241
+Mexico,Nuevo León,Monterrey,n/a,24771,4583.176761,1136000,3,18,221.4877028,0.048326241
+Mexico,Oaxaca,Oaxaca,n/a,36275,1110.071501,255029,n/a,11,n/a,n/a
+Mexico,Puebla,Puebla,n/a,13224,1404.287443,1576000,8,32,32.80481423,0.02336047
+Mexico,Querétaro,Querétaro,n/a,4517,2372.607682,626495,9,53,407.0832025,0.171576281
+Mexico,Quintana Roo,Cancún,n/a,42030,2722.675033,628306,n/a,11,n/a,n/a
+Mexico,San Luis Potosí,San Luis Potosí,n/a,23605,1600.832005,824229,11,17,97.26739927,0.060760529
+Mexico,Sinaloa,Culiacán,n/a,22471,2053.344418,785800,13,11,20.66195709,0.010062587
+Mexico,Tabasco,Villahermosa,n/a,9756,1693.933611,353577,8,41,891.7844061,0.526457708
+Mexico,Tamaulipas,Reynosa,n/a,29106,2222.720261,612183,8,43,1370.544218,0.616606706
+Mexico,Tlaxcala,Apizaco,n/a,1551,1438.233637,76492,5,13,16.88801675,0.011742193
+Mexico,Veracruz,Boca del Rio,n/a,27683,1368.92638,138058,5,51,1165.358451,0.851293735
+Mexico,Yucatán,Mérida,n/a,16749,1956.869117,777615,6,22,450.9680795,0.230453879
+Mexico,Zacatecas,Zacatecas,n/a,137.5,1581.809672,1579000,10,96,283.3547881,0.179133301

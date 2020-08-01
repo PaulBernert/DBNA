@@ -1,0 +1,131 @@
+﻿Country,State,City,Region,State / Providence Area (in Square Miles),Income per Capita,Population,Number of Procedures to Transfer Title on Immovable Property,Cost (in USD) to Transfer Title on Immovable Property,Cost (as a Percent of Income per Capita) to Transfer Title on Immovable Property,Land Title Identification,Immovable Property Identification,Reliability of Information Index,Information on Land-Ownership is Made Publicly-Available,Documents for Completing the Registration of Property Transactions Publicly-Available,Fee Scheduleis Made Publicly-Available,Specific and Independent Mechanism for Filing Complaints,Specific Time Frame for Immovable Property Registration,Deed for Property Title Transfer Can Be Processed Online,Transparency of Information Index,Quality of Land Administration Index,Parking Minimum Size (Square Feet per Required Parking Spot),Local Planning Commission (Rezoning),Local Zoning Board (Rezoning),Local Council / Local Managers (Rezoning),County Board of Commissioners (Rezoning),County Zoning Board (Rezoning),Environmental Review Board (Rezoning),Number of Approvals Needed (Rezoning),Local Planning Commission (Zoning),Local Zoning Board (Zoning),Local Council / Local Managers (Zoning),County Board of Commissioners (Zoning),County Zoning Board (Zoning),Environmental Review Board (Zoning),Number of Approvals Needed (Zoning)
+Canada,Alberta,Calgary,Prairie Provinces,255541,58439,1336000,1,10,0.000171119,1,1,2,1,1,1,1,1,1,6,8,132,Yes,Yes,Yes,No,No,Yes,4,Yes,Yes,Yes,No,No,Yes,4
+Canada,Alberta,Edmonton,Prairie Provinces,255541,60131.25,4371000,1,10,0.000166303,1,1,2,1,0,1,0,0,0,2,4,0,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+Canada,British Columbia,Vancouver,West Coast,364764,44299.5,610000,4,88.99,0.002008826,1,1,2,1,1,1,0,0,1,4,6,328,Yes,Yes,Yes,No,No,Yes,4,Yes,Yes,Yes,No,No,Yes,4
+Canada,Manitoba,Winnipeg,Prairie Provinces,250116,40281,705244,5,70,0.001737792,1,1,2,1,1,0,1,1,1,5,7,250,Yes,Yes,Yes,No,No,No,3,Yes,No,Yes,No,No,No,2
+Canada,New Brunswick,Moncton,Atlantic Region,28150,35962.5,85198,1,85,0.002363573,1,1,2,1,1,1,0,0,0,3,5,132,Yes,No,No,No,No,Yes,2,Yes,No,No,No,No,Yes,2
+Canada,Newfoundland and Labrador,St. Johns,Atlantic Region,156453,47432.25,212501,4,100,0.00210827,1,1,2,1,1,1,0,0,1,4,6,n/a,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+Canada,Nova Scotia,Halifax,Atlantic Region,21345,34669.5,434140,1,100,0.00288438,1,1,2,1,1,1,0,0,1,4,6,300,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,Yes,Yes,4
+Canada,Ontario,Ottawa,Central Canada,415600,44909.25,940179,1,75.9,0.001690075,1,1,2,1,1,1,0,0,0,3,5,110,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+Canada,Ontario,Toronto,Central Canada,415600,44909.25,3041200,1,206.4,0.004595935,1,1,2,1,1,1,0,0,1,4,6,110,Yes,Yes,Yes,No,No,Yes,4,Yes,Yes,Yes,No,No,Yes,3
+Canada,Quebec,Montreal,Central Canada,644000,39288,1873840,1,60,0.001527184,1,1,2,1,1,1,0,0,0,3,5,657,Yes,Yes,Yes,No,Yes,Yes,5,Yes,Yes,Yes,No,Yes,Yes,5
+Canada,Quebec,Quebec City,Central Canada,644000,39288,147043,1,60,0.001527184,1,1,2,1,1,1,0,0,0,3,5,n/a,Yes,Yes,Yes,No,Yes,Yes,5,Yes,Yes,Yes,No,Yes,Yes,5
+Canada,Saskatchewan,Saskatoon,Prairie Provinces,251700,52029.75,260767,3,11,0.000211418,1,1,2,1,1,1,0,0,1,4,6,164,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Alabama,Birmingham,East South Central,52419,22993,209880,3,25,0,1,1,2,1,1,1,0,0,0,3,5,300,Yes,Yes,Yes,Yes,Yes,No,5,Yes,Yes,Yes,Yes,Yes,No,5
+United States,Alaska,Anchorage,Pacific,663300,38977,291538,4,65,0.00166765,1,1,2,1,1,1,0,0,0,3,5,350,Yes,Yes,Yes,No,No,No,3,Yes,Yes,Yes,No,No,No,3
+United States,Arizona,Mesa,Mountain,113998,27851,508958,5,210,0.007540124,1,1,2,1,1,1,1,0,0,4,6,162,No,Yes,Yes,No,No,No,2,No,Yes,Yes,No,No,No,2
+United States,Arizona,Phoenix,Mountain,113998,27870,1660272,5,210,0.007534984,1,1,2,1,1,1,1,0,0,4,6,300,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+United States,Arizona,Tucson,Mountain,113998,22645,545975,5,210,0.00927357,1,1,2,1,1,1,1,0,0,4,6,300,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+United States,Arkansas,Little Rock,West South Central,53179,34546,197881,4,60,0.001736815,1,1,2,1,1,1,0,0,0,3,5,300,No,Yes,Yes,No,No,No,2,No,Yes,Yes,No,No,No,2
+United States,California,Los Angeles,Pacific,163696,31563,3990456,5,147,0.004657352,1,1,2,1,1,1,1,1,0,5,7,250,No,No,No,Yes,Yes,Yes,3,No,No,No,Yes,Yes,Yes,3
+United States,California,San Diego,Pacific,163696,37112,1425976,6,61,0.001643673,1,1,2,1,1,1,1,1,0,5,7,400,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,California,San Francisco,Pacific,163696,59510,883305,5,61,0.001025038,1,1,2,1,1,1,1,1,1,6,8,0,Yes,Yes,No,No,No,Yes,3,Yes,Yes,No,No,No,Yes,3
+United States,California,San Jose,Pacific,163696,40275,1030119,6,72,0.001787709,1,1,2,1,1,1,1,1,0,5,7,200,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Colorado,Aurora,Pacific,104185,28854,374114,4,58,0.00201012,1,1,2,1,1,1,0,0,0,3,5,200,Yes,Yes,Yes,No,No,No,3,Yes,Yes,Yes,No,No,No,3
+United States,Colorado,Colorado Springs,Pacific,104185,32539,472688,4,58,0.001782476,1,1,2,1,1,1,0,0,1,4,6,600,Yes,No,No,No,No,Yes,2,Yes,No,No,No,No,Yes,2
+United States,Colorado,Denver,Pacific,104185,38991,716492,4,58,0.001487523,1,1,2,1,1,1,1,1,1,6,8,200,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Connecticut,Bridgeport,New England,5543,22806,144900,5,60,0.002630887,1,1,2,1,1,1,0,0,1,4,6,286,Yes,Yes,No,No,No,Yes,3,Yes,Yes,No,No,No,Yes,3
+United States,Delaware,Wilmington,South Atlantic,2489,30601,70635,4,165,0.005391981,1,1,2,1,1,1,0,0,1,4,6,200,Yes,Yes,Yes,No,No,No,3,Yes,Yes,Yes,No,No,No,3
+United States,District of Columbia,Washington D.C.,South Atlantic,68.34,50833,713244,4,156.5,0.003078709,1,1,2,1,1,1,0,0,0,3,5,752,Yes,No,No,No,No,No,1,Yes,No,No,No,No,No,1
+United States,Florida,Jacksonville,South Atlantic,65755,27486,903889,5,86.5,0.003147057,1,1,2,1,1,1,1,0,1,5,7,333,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Florida,Miami,South Atlantic,65755,25067,470914,5,86.5,0.003450752,1,1,2,1,1,1,1,1,0,5,7,420,No,No,No,Yes,Yes,Yes,3,No,No,No,Yes,Yes,Yes,3
+United States,Florida,Orlando,South Atlantic,65755,28117,285713,5,86.5,0.003076431,1,1,2,1,1,1,0,1,0,4,6,250,Yes,No,No,Yes,No,No,2,Yes,No,No,Yes,No,No,2
+United States,Florida,Tampa,South Atlantic,65755,32869,392890,5,86.5,0.002631659,1,1,2,1,1,1,0,0,1,4,6,250,Yes,No,Yes,Yes,Yes,No,4,Yes,No,Yes,Yes,Yes,No,4
+United States,Georgia,Atlanta,South Atlantic,59425,40595,498044,4,28,0.00068974,1,1,2,1,1,1,0,0,1,4,6,200,Yes,Yes,Yes,No,No,No,3,Yes,Yes,Yes,No,No,No,3
+United States,Hawaii,Honolulu,Pacific,10931,33776,347397,4,41,0.00121388,1,1,2,1,1,1,0,0,0,3,5,400,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Idaho,Boise,Mountain,83642,32147,228790,3,45,0.00139982,1,1,2,1,1,1,0,1,0,4,6,300,Yes,No,Yes,Yes,No,Yes,4,Yes,No,Yes,Yes,No,Yes,4
+United States,Illinois,Chicago,East North Central,57915,32560,2705994,5,106,0.003255528,1,1,2,1,1,1,1,0,1,5,7,500,No,Yes,No,No,No,Yes,2,No,Yes,No,No,No,Yes,2
+United States,Indiana,Indianapolis,East North Central,36418,26232,867125,4,80,0.00304971,1,1,2,1,1,0,0,0,0,2,4,285,Yes,Yes,Yes,Yes,Yes,No,5,Yes,Yes,Yes,Yes,Yes,No,5
+United States,Iowa,Des Moines,West North Central,56272,26494,216853,5,72,0.002717596,1,1,2,1,1,0,0,0,1,3,5,1000,Yes,Yes,Yes,No,No,Yes,4,Yes,Yes,Yes,No,No,Yes,4
+United States,Kansas,Wichita,West North Central,82277,26527,389255,4,208,0.007841068,1,1,2,1,1,1,0,0,1,4,6,300,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Kentucky,Lexington,East South Central,40409,32965,323780,5,65,0.001971788,1,1,2,1,1,1,0,0,1,4,6,n/a,Yes,No,Yes,Yes,No,Yes,4,Yes,No,Yes,Yes,No,Yes,4
+United States,Kentucky,Louisville,East South Central,40409,28975,620118,5,75,0.002588438,1,1,2,1,1,1,0,0,1,4,6,300,Yes,Yes,No,No,No,Yes,3,Yes,Yes,No,No,No,Yes,3
+United States,Louisiana,New Orleans,West South Central,52378,29275,391006,4,200,0.006831768,1,1,2,1,1,0,0,0,1,3,5,300,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+United States,Maine,Portland,New England,35385,32221,66417,5,40,0.001241426,1,1,2,0,1,1,0,0,0,2,4,636,No,Yes,Yes,No,No,Yes,3,No,Yes,Yes,No,No,Yes,3
+United States,Maryland,Baltimore,South Atlantic,12407,28488,602495,4,135,0.004738837,1,1,2,1,1,1,0,0,0,3,5,500,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Massachusetts,Boston,New England,10565,39686,694583,4,155,0.003905659,1,1,2,1,0,1,0,0,1,3,5,500,Yes,Yes,Yes,No,No,No,3,Yes,Yes,Yes,No,No,No,3
+United States,Michigan,Detroit,East North Central,96716,27838,672662,4,42,0.001508729,1,1,2,1,0,1,0,1,0,3,5,200,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Michigan,Grand Rapids,East North Central,96716,23225,200217,4,30,0.001291712,1,1,2,1,1,1,0,0,1,4,6,200,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Minnesota,Minneapolis,West North Central,86943,35259,425403,6,92,0.002609263,1,1,2,1,1,1,0,1,1,5,7,300,Yes,Yes,No,No,No,Yes,3,Yes,Yes,No,No,No,Yes,3
+United States,Minnesota,St. Paul,West North Central,86943,30036,307695,6,92,0.003062991,1,1,2,1,1,1,1,0,1,5,7,200,Yes,Yes,Yes,No,No,No,3,Yes,Yes,Yes,No,No,No,3
+United States,Mississippi,Jackson,East South Central,48430,35308,164422,5,31,0.000877988,1,1,2,1,1,0,0,0,0,2,4,250,No,Yes,No,No,No,No,1,No,Yes,No,No,No,No,1
+United States,Missouri,Kansas City,West North Central,69704,31143,491918,4,48,0.001541277,1,1,2,1,1,1,0,0,1,4,6,400,Yes,Yes,Yes,No,No,Yes,4,Yes,Yes,Yes,No,No,Yes,4
+United States,Missouri,St. Louis,West North Central,69704,26739,302838,3,363.41,0.0012,1,1,2,1,0,1,1,0,1,5,7,250,Yes,Yes,Yes,Yes,No,Yes,5,Yes,Yes,Yes,Yes,No,Yes,5
+United States,Montana,Billings,Mountain,147040,31854,109550,5,84,0.002637031,1,1,2,1,1,1,1,0,0,4,6,n/a,No,Yes,Yes,No,Yes,Yes,4,No,Yes,Yes,No,Yes,Yes,4
+United States,Nebraska,Lincoln,West North Central,77421,30013,287401,5,70,0.002332323,1,1,2,1,1,1,0,0,0,3,5,300,Yes,Yes,Yes,No,Yes,No,4,Yes,Yes,Yes,No,Yes,No,4
+United States,Nebraska,Omaha,West North Central,77421,30222,468262,5,80,0.002647078,1,1,2,1,1,1,0,0,0,3,5,400,No,Yes,Yes,No,No,Yes,3,No,Yes,Yes,No,No,Yes,3
+United States,Nevada,Henderson,Mountain,110567,37861,310390,6,42,0.001109321,1,1,2,1,1,1,0,0,0,3,5,200,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Nevada,Las Vegas,Mountain,110567,27650,644644,5,84,0.003037975,1,1,2,1,1,1,0,0,0,3,5,250,Yes,No,No,Yes,No,Yes,3,Yes,No,No,Yes,No,Yes,3
+United States,New Hampshire,Manchester,New England,9350,29681,112525,4,46,0.001549813,1,1,2,1,1,1,0,0,1,4,6,250,No,Yes,No,No,No,Yes,2,No,Yes,No,No,No,Yes,2
+United States,New Jersey,Newark,Mid-Atlantic,8729,19313,282090,3,118,0.006109874,1,1,2,1,1,1,0,0,0,3,5,500,Yes,Yes,No,No,No,Yes,3,Yes,Yes,No,No,No,Yes,3
+United States,New Mexico,Albuquerque,Mountain,121697,28230,560218,4,25,0.000885583,1,1,2,1,1,1,0,0,0,3,5,250,No,No,No,Yes,No,Yes,2,No,No,No,Yes,No,Yes,2
+United States,New York,Buffalo,Mid-Atlantic,54556,22294,256304,6,220,0.009868126,1,1,2,1,1,1,1,0,1,5,7,0,Yes,Yes,Yes,No,No,No,3,Yes,Yes,Yes,No,No,No,3
+United States,New York,New York City,Mid-Atlantic,54556,35761,8398761,6,217,0.006068063,1,1,2,1,1,1,1,0,1,5,7,300,Yes,Yes,No,No,No,Yes,3,Yes,Yes,No,No,No,Yes,3
+United States,New York,Rochester,Mid-Atlantic,54556,21054,206284,6,100,0.004749691,1,1,2,1,1,1,1,0,0,4,6,500,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,North Carolina,Charlotte,South Atlantic,53819,34687,872498,4,64,0.001845072,1,1,2,1,1,1,0,0,1,4,6,500,Yes,Yes,Yes,No,No,Yes,4,Yes,Yes,Yes,No,No,Yes,4
+United States,North Carolina,Greensboro,South Atlantic,53819,28502,294722,4,64,0.002245456,1,1,2,1,1,1,0,0,0,3,5,300,No,No,Yes,No,No,Yes,2,No,No,Yes,No,No,Yes,2
+United States,North Carolina,Raleigh,South Atlantic,53819,36875,469298,4,64,0.001735593,1,1,2,1,1,1,1,0,1,5,7,300,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+United States,North Dakota,Fargo,West North Central,70762,31866,124844,5,65,0.002039792,1,1,2,1,1,0,0,0,0,2,4,250,Yes,Yes,Yes,No,No,Yes,4,Yes,Yes,Yes,No,No,No,3
+United States,Ohio,Cincinnati,East North Central,44825,29156,302605,4,98,0.003361229,1,1,2,1,1,1,1,1,1,6,8,400,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+United States,Ohio,Cleveland,East North Central,44825,20085,383793,4,98,0.004879263,1,1,2,1,1,1,1,0,0,4,6,150,No,Yes,Yes,No,No,No,2,No,Yes,Yes,No,No,No,2
+United States,Ohio,Columbus,East North Central,44825,26778,892533,4,98,0.003659721,1,1,2,1,1,1,1,0,0,4,6,250,No,Yes,No,No,No,Yes,2,No,Yes,No,No,No,Yes,2
+United States,Oklahoma,Oklahoma City,West South Central,69899,28365,649021,4,36,0.00126917,1,1,2,1,1,1,0,0,1,4,6,200,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Oklahoma,Tulsa,West South Central,69899,29764,400669,4,36,0.001209515,1,1,2,1,1,1,0,0,0,3,5,400,Yes,No,No,No,No,Yes,2,Yes,No,No,No,No,Yes,2
+United States,Oregon,Portland,Pacific,98466,36492,653115,5,136,0.003726844,1,1,2,1,0,1,0,0,1,3,5,200,Yes,No,No,No,No,Yes,2,Yes,No,No,No,No,Yes,2
+United States,Pennsylvania,Philadelphia,Mid-Atlantic,46055,24811,1584138,7,235,0.009471605,1,1,2,1,1,1,1,1,0,5,7,1000,Yes,Yes,Yes,Yes,No,No,4,Yes,Yes,Yes,Yes,No,No,4
+United States,Pennsylvania,Pittsburgh,Mid-Atlantic,46055,30397,301048,6,166.75,0.005485739,1,1,2,1,1,1,1,0,1,5,7,500,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Rhode Island,Providence,New England,1212,24051,179335,4,58,0.002411542,1,1,2,1,1,1,0,0,1,4,6,500,Yes,Yes,Yes,Yes,No,No,4,Yes,Yes,Yes,Yes,No,No,4
+United States,South Carolina,Charleston,South Atlantic,32020,35587,136208,4,15,0.000421502,1,1,2,1,1,0,0,0,1,3,5,400,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+United States,South Dakota,Sioux Falls,West North Central,77184,31161,181883,5,30,0.000962742,1,1,2,1,0,1,1,0,0,3,5,300,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+United States,Tennessee,Memphis,East South Central,42180,24243,650618,4,52,0.002144949,1,1,2,1,1,1,0,0,1,4,6,200,No,No,Yes,No,Yes,No,2,No,No,Yes,No,Yes,No,2
+United States,Tennessee,Nashville,East South Central,42180,31109,669053,4,52,0.001671542,1,1,2,1,1,1,0,0,1,4,6,250,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Texas,Austin,West South Central,268597,37888,964254,5,60,0.001583615,1,1,2,1,1,1,0,0,1,4,6,275,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Texas,Dallas,West South Central,268597,31260,1345047,5,62,0.001983365,1,1,2,1,1,1,0,1,1,5,7,333,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Texas,Houston,West South Central,268597,24325,2325502,5,58,0.002384378,1,1,2,1,1,1,0,0,1,4,6,250,Yes,No,No,No,No,No,1,Yes,No,No,No,No,No,1
+United States,Texas,San Antonio,West South Central,268597,24325,1532233,5,62,0.002548818,1,1,2,1,1,1,0,0,1,4,6,300,Yes,No,No,No,No,No,1,Yes,No,No,No,No,No,1
+United States,Utah,Salt Lake City,Mountain,84899,32954,200591,5,130,0.003944893,1,1,2,1,1,1,1,1,0,5,7,333,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Vermont,Burlington,New England,9623,26011,42899,5,30,0.001153358,1,1,2,1,1,0,0,0,1,3,5,5000,Yes,Yes,Yes,No,No,Yes,4,Yes,Yes,Yes,No,No,Yes,4
+United States,Virginia,Arlington,South Atlantic,42775,67061,234965,4,34.5,0.000514457,1,1,2,1,1,1,1,0,1,5,7,250,No,No,No,No,Yes,No,1,No,No,No,No,Yes,No,1
+United States,Virginia,Virginia Beach,South Atlantic,42775,34608,450189,4,48,0.001386963,1,1,2,1,1,1,1,0,0,4,6,250,No,Yes,Yes,No,No,No,2,No,Yes,Yes,No,No,No,2
+United States,Washington,Seattle,Pacific,71362,51872,744955,5,108,0.002082048,1,1,2,1,1,1,1,1,1,6,8,300,No,No,Yes,No,No,Yes,2,No,No,Yes,No,No,Yes,2
+United States,West Virginia,Charleston,South Atlantic,24038,33833,47215,4,30,0.000886708,1,1,2,1,1,1,0,0,0,3,5,400,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+United States,Wisconsin,Milwaukee,East North Central,65498,21627,592025,5,30,0.001387155,1,1,2,1,1,1,1,1,1,6,8,286,Yes,No,Yes,No,No,No,2,Yes,No,Yes,No,No,No,2
+United States,Wyoming,Cheyenne,Mountain,97818,31981,63957,5,39,0.001219474,1,1,2,1,1,1,0,0,1,4,6,200,Yes,No,Yes,No,No,Yes,3,Yes,No,Yes,No,No,Yes,3
+Mexico,Aguascalientes,Aguascalientes ,n/a,148.6,2038.464508,722250,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Baja California,Tijuana ,n/a,27587,2896.392845,1301000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Baja California Sur,La Paz ,n/a,29218,2822.094087,244219,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Campeche,Campeche,n/a,22365,1943.158508,220389,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Chiapas,Tuxtla Gutiérrez,n/a,28306,975.8022874,537102,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Chihuahua,Chihuahua,n/a,95545,2330.525362,809232,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Chihuahua,Juárez,n/a,95545,2330.525362,1321000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Coahuila,Saltillo,n/a,58531,2150.113658,709671,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Coahuila,Piedras Negras,n/a,58531,2150.113658,150178,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Colima,Colima,n/a,2172,2204.00138,711235,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Durango,Durango,n/a,48410,1768.034135,654876,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Guanajuato,León,n/a,11817,2426.814205,1239000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Guerrero,Acapulco,n/a,24819,1209.257114,673479,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Sonora,Hermosillo,n/a,69249,2751.348039,812229,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Hidalgo,Pachuca,n/a,8036,1480.020697,256584,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Jalisco,Guadalajara,n/a,30343,2272.846653,1495000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,México,Ecatepec,n/a,8687,1808.771606,1655000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,México,Naucalpan,n/a,8687,1808.771606,792211,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,México,Nezahualcóyotl,n/a,8687,1808.771606,1105000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,México,Toluca,n/a,8687,1808.771606,489333,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Mexico City,Mexico City,n/a,573,3276.678206,8855000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Michoacán,Morelia,n/a,22625,1437.237081,597511,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Morelos,Cuernavaca,n/a,1911,1759.957095,338650,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Nayarit,Tepic,n/a,10756,1921.115864,332863,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Nuevo León,San Pedro,n/a,24771,4583.176761,122009,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Nuevo León,Monterrey,n/a,24771,4583.176761,1136000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Oaxaca,Oaxaca,n/a,36275,1110.071501,255029,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Puebla,Puebla,n/a,13224,1404.287443,1576000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Querétaro,Querétaro,n/a,4517,2372.607682,626495,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Quintana Roo,Cancún,n/a,42030,2722.675033,628306,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,San Luis Potosí,San Luis Potosí,n/a,23605,1600.832005,824229,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Sinaloa,Culiacán,n/a,22471,2053.344418,785800,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Tabasco,Villahermosa,n/a,9756,1693.933611,353577,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Tamaulipas,Reynosa,n/a,29106,2222.720261,612183,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Tlaxcala,Apizaco,n/a,1551,1438.233637,76492,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Veracruz,Boca del Rio,n/a,27683,1368.92638,138058,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Yucatán,Mérida,n/a,16749,1956.869117,777615,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Mexico,Zacatecas,Zacatecas,n/a,137.5,1581.809672,1579000,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a

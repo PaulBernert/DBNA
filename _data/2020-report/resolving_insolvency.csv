@@ -1,0 +1,131 @@
+﻿Country,State,City,Region,State / Providence Area (in Square Miles),Income per Capita,Population,Time (in Years),Whether debtors can initiate both liquidation and reorganiza­tion proceedings,Whether creditors can initiate both liquidation and reorganization proceedings,What standard is used for commence­ment of insolvency proceedings,Commencement of Proceedings Index (0-3),Whether the debtor can continue performing contracts essential to the debtor’s survival,Whether the debtor can reject overly burdensome contracts,Whether transactions entered into before commencement of insolvency proceedings that give preference to one or several creditors can be avoided after proceedings are initi­ated,Whether undervalued transactions entered into before commencement of insolvency proceedings can be avoided after proceedings are initi­ated,Whether the insolvency framework includes specific provisions that allow the debtor to obtain financing necessary to function during the proceedings,Whether post-commencement finance receives priority over ordinary unse­cured creditors during distribution of assets,Management of Debtor's Assets Index (0-6),Whether the reorganization plan is voted on only by the creditors whose rights are modified or affected by the plan,"Whether creditors entitled to vote on the plan are divided into classes, each class votes separately and the creditors within each class are treated equally",Whether the insolvency framework requires that dissenting creditors receive as much under the reorganiza­tion plan as they would have received in liquidation,Reorganization Proceedings Index (0-3),"Whether creditors appoint the insol­vency representative or approve, ratify or reject the appointment of the insolvency representative",Whether creditors are required to approve the sale of substantial assets of the debtor in the course of insol­vency proceedings,Whether an individual creditor has the right to access financial information about the debtor during insolvency proceedings,Whether an individual creditor can object to a decision of the court or of the insolvency representative to approve or reject claims against the debtor brought by the creditor itself and by other creditors,Creditor Participation Index (0-4),Strength of Insolvency Framework Index (0-16)
+Canada,Alberta,Calgary,Prairie Provinces,255541,58439,1336000,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Alberta,Edmonton,Prairie Provinces,255541,60131.25,4371000,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,British Columbia,Vancouver,West Coast,364764,44299.5,610000,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Manitoba,Winnipeg,Prairie Provinces,250116,40281,705244,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,New Brunswick,Moncton,Atlantic Region,28150,35962.5,85198,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Newfoundland and Labrador,St. Johns,Atlantic Region,156453,47432.25,212501,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Nova Scotia,Halifax,Atlantic Region,21345,34669.5,434140,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Ontario,Ottawa,Central Canada,415600,44909.25,940179,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Ontario,Toronto,Central Canada,415600,44909.25,3041200,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Quebec,Montreal,Central Canada,644000,39288,1873840,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Quebec,Quebec City,Central Canada,644000,39288,147043,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+Canada,Saskatchewan,Saskatoon,Prairie Provinces,251700,52029.75,260767,0.8,1,0.5,1,2.5,0,1,1,1,1,0.5,4.5,1,0,0,1,1,1,1,0,3,11
+United States,Alabama,Birmingham,East South Central,52419,22993,209880,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Alaska,Anchorage,Pacific,663300,38977,291538,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Arizona,Mesa,Mountain,113998,27851,508958,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Arizona,Phoenix,Mountain,113998,27870,1660272,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Arizona,Tucson,Mountain,113998,22645,545975,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Arkansas,Little Rock,West South Central,53179,34546,197881,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,California,Los Angeles,Pacific,163696,31563,3990456,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,California,San Diego,Pacific,163696,37112,1425976,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,California,San Francisco,Pacific,163696,59510,883305,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,California,San Jose,Pacific,163696,40275,1030119,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Colorado,Aurora,Pacific,104185,28854,374114,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Colorado,Colorado Springs,Pacific,104185,32539,472688,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Colorado,Denver,Pacific,104185,38991,716492,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Connecticut,Bridgeport,New England,5543,22806,144900,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Delaware,Wilmington,South Atlantic,2489,30601,70635,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,District of Columbia,Washington D.C.,South Atlantic,68.34,50833,713244,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Florida,Jacksonville,South Atlantic,65755,27486,903889,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Florida,Miami,South Atlantic,65755,25067,470914,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Florida,Orlando,South Atlantic,65755,28117,285713,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Florida,Tampa,South Atlantic,65755,32869,392890,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Georgia,Atlanta,South Atlantic,59425,40595,498044,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Hawaii,Honolulu,Pacific,10931,33776,347397,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Idaho,Boise,Mountain,83642,32147,228790,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Illinois,Chicago,East North Central,57915,32560,2705994,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Indiana,Indianapolis,East North Central,36418,26232,867125,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Iowa,Des Moines,West North Central,56272,26494,216853,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Kansas,Wichita,West North Central,82277,26527,389255,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Kentucky,Lexington,East South Central,40409,32965,323780,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Kentucky,Louisville,East South Central,40409,28975,620118,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Louisiana,New Orleans,West South Central,52378,29275,391006,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Maine,Portland,New England,35385,32221,66417,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Maryland,Baltimore,South Atlantic,12407,28488,602495,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Massachusetts,Boston,New England,10565,39686,694583,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Michigan,Detroit,East North Central,96716,27838,672662,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Michigan,Grand Rapids,East North Central,96716,23225,200217,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Minnesota,Minneapolis,West North Central,86943,35259,425403,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Minnesota,St. Paul,West North Central,86943,30036,307695,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Mississippi,Jackson,East South Central,48430,35308,164422,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Missouri,Kansas City,West North Central,69704,31143,491918,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Missouri,St. Louis,West North Central,69704,26739,302838,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Montana,Billings,Mountain,147040,31854,109550,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Nebraska,Lincoln,West North Central,77421,30013,287401,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Nebraska,Omaha,West North Central,77421,30222,468262,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Nevada,Henderson,Mountain,110567,37861,310390,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Nevada,Las Vegas,Mountain,110567,27650,644644,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,New Hampshire,Manchester,New England,9350,29681,112525,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,New Jersey,Newark,Mid-Atlantic,8729,19313,282090,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,New Mexico,Albuquerque,Mountain,121697,28230,560218,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,New York,Buffalo,Mid-Atlantic,54556,22294,256304,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,New York,New York City,Mid-Atlantic,54556,35761,8398761,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,New York,Rochester,Mid-Atlantic,54556,21054,206284,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,North Carolina,Charlotte,South Atlantic,53819,34687,872498,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,North Carolina,Greensboro,South Atlantic,53819,28502,294722,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,North Carolina,Raleigh,South Atlantic,53819,36875,469298,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,North Dakota,Fargo,West North Central,70762,31866,124844,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Ohio,Cincinnati,East North Central,44825,29156,302605,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Ohio,Cleveland,East North Central,44825,20085,383793,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Ohio,Columbus,East North Central,44825,26778,892533,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Oklahoma,Oklahoma City,West South Central,69899,28365,649021,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Oklahoma,Tulsa,West South Central,69899,29764,400669,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Oregon,Portland,Pacific,98466,36492,653115,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Pennsylvania,Philadelphia,Mid-Atlantic,46055,24811,1584138,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Pennsylvania,Pittsburgh,Mid-Atlantic,46055,30397,301048,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Rhode Island,Providence,New England,1212,24051,179335,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,South Carolina,Charleston,South Atlantic,32020,35587,136208,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,South Dakota,Sioux Falls,West North Central,77184,31161,181883,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Tennessee,Memphis,East South Central,42180,24243,650618,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Tennessee,Nashville,East South Central,42180,31109,669053,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Texas,Austin,West South Central,268597,37888,964254,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Texas,Dallas,West South Central,268597,31260,1345047,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Texas,Houston,West South Central,268597,24325,2325502,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Texas,San Antonio,West South Central,268597,24325,1532233,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Utah,Salt Lake City,Mountain,84899,32954,200591,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Vermont,Burlington,New England,9623,26011,42899,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Virginia,Arlington,South Atlantic,42775,67061,234965,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Virginia,Virginia Beach,South Atlantic,42775,34608,450189,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Washington,Seattle,Pacific,71362,51872,744955,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,West Virginia,Charleston,South Atlantic,24038,33833,47215,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Wisconsin,Milwaukee,East North Central,65498,21627,592025,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+United States,Wyoming,Cheyenne,Mountain,97818,31981,63957,1,1,1,1,3,1,1,1,1,1,1,6,1,1,1,3,1,0,1,1,3,15
+Mexico,Aguascalientes,Aguascalientes ,n/a,148.6,2038.464508,722250,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Baja California,Tijuana ,n/a,27587,2896.392845,1301000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Baja California Sur,La Paz ,n/a,29218,2822.094087,244219,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Campeche,Campeche,n/a,22365,1943.158508,220389,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Chiapas,Tuxtla Gutiérrez,n/a,28306,975.8022874,537102,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Chihuahua,Chihuahua,n/a,95545,2330.525362,809232,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Chihuahua,Juárez,n/a,95545,2330.525362,1321000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Coahuila,Saltillo,n/a,58531,2150.113658,709671,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Coahuila,Piedras Negras,n/a,58531,2150.113658,150178,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Colima,Colima,n/a,2172,2204.00138,711235,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Durango,Durango,n/a,48410,1768.034135,654876,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Guanajuato,León,n/a,11817,2426.814205,1239000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Guerrero,Acapulco,n/a,24819,1209.257114,673479,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Sonora,Hermosillo,n/a,69249,2751.348039,812229,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Hidalgo,Pachuca,n/a,8036,1480.020697,256584,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Jalisco,Guadalajara,n/a,30343,2272.846653,1495000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,México,Ecatepec,n/a,8687,1808.771606,1655000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,México,Naucalpan,n/a,8687,1808.771606,792211,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,México,Nezahualcóyotl,n/a,8687,1808.771606,1105000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,México,Toluca,n/a,8687,1808.771606,489333,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Mexico City,Mexico City,n/a,573,3276.678206,8855000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Michoacán,Morelia,n/a,22625,1437.237081,597511,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Morelos,Cuernavaca,n/a,1911,1759.957095,338650,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Nayarit,Tepic,n/a,10756,1921.115864,332863,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Nuevo León,San Pedro,n/a,24771,4583.176761,122009,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Nuevo León,Monterrey,n/a,24771,4583.176761,1136000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Oaxaca,Oaxaca,n/a,36275,1110.071501,255029,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Puebla,Puebla,n/a,13224,1404.287443,1576000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Querétaro,Querétaro,n/a,4517,2372.607682,626495,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Quintana Roo,Cancún,n/a,42030,2722.675033,628306,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,San Luis Potosí,San Luis Potosí,n/a,23605,1600.832005,824229,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Sinaloa,Culiacán,n/a,22471,2053.344418,785800,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Tabasco,Villahermosa,n/a,9756,1693.933611,353577,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Tamaulipas,Reynosa,n/a,29106,2222.720261,612183,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Tlaxcala,Apizaco,n/a,1551,1438.233637,76492,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Veracruz,Boca del Rio,n/a,27683,1368.92638,138058,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Yucatán,Mérida,n/a,16749,1956.869117,777615,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5
+Mexico,Zacatecas,Zacatecas,n/a,137.5,1581.809672,1579000,1.8,1,1,0.5,2.5,1,1,1,1,1,0.5,5.5,0.5,0,1,1.5,0,0,1,1,2,11.5

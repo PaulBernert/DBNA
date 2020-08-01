@@ -23,3 +23,15 @@ JavaScript warning: https://www.google.com/maps/place/State+of+Mexico,+Mexico/da
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1596256585641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PaulB\\AppData\\Local\\Temp\\rust_mozprofileqwqpeG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596256588198	Marionette	INFO	Listening on port 64629
+1596256588256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596256719815	Marionette	INFO	Stopped listening on port 64629
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
