@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <!-- Nav Bar -->
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">Home</a>
     <a class="navbar-brand" href="/analysis">Analysis</a>
@@ -18,7 +18,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Create Methodology Dropdown -->
+      <!-- Methodology Dropdown -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Methodology</a>
@@ -38,30 +38,35 @@
   <div class="hero-image"></div>
 
   <hr>
-
-  <!--Create Containers-->
   <div class="container">
-    <div class="row">
-      <div class="text-center font-weight-light display-4">
-        <h2>What is Doing Business North America?</h2>
-        <hr>
-      </div>
-      <div class="text-center mx-auto col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-        <p>The Doing Business North America (DBNA) project annually provides objective measures of the scale and scope of business
-          regulations in 115 cities across 92 states, provinces, and federal districts of the U.S., Canada, and Mexico.
-          It uses these measures to score and rank cities in regard to how easy or difficult it is to set up, operate, and shut down a business. </p>
-
-          <h2>Why is this report important now?</h2>
-          <hr>
-          <p>Over the years, researchers have begun to understand how robust measurement and ranking of regulations that either enhance business
-          activity or constrain it can provide substantial insight into economic outcomes. Objective measurements of those regulations have been
-          vital in this understanding. Unlike many studies that measure regulations at the state level, this annual study measures the impact at
-          the city level and does so for over 100 municipal jurisdictions across North America.</p>
-        </div>
+    <div class="text">
+        <h1 id="university-of-arizona-coding-bootcamp-final-project">University of Arizona - Coding Bootcamp - Final Project</h1>
+          <h2 id="research-objectives">Research Objectives</h2>
+            <p>This project aims to take the <a href="https://github.com/PaulBernert/DBNA/blob/master/_data/2020-report/data_with_msas.csv">raw data</a> provided from the Doing Business North America report, calculate a rank and score to determine the <em>&#39;Ease of Doing Business&#39;</em> (see the <a href="https://github.com/PaulBernert/DBNA/wiki/Ease-of-Doing-Business-Methodology">Methodology</a> for explanation of what Ease of Doing Business measures). The effectiveness of the ranking/scoring process will be tested in an applied setting--using the calculated <em>&#39;Ease of Doing Business&#39;</em> ranks to see if it correlates with business activity relative to the local population. </p><hr>
+            <p>Another primary goal of the project is to use Machine Learning algorithms (through Scikit-learn) to test multiple clustering algorithms to see which locations are the most similar in nature. The two clustering algorithms to be tested are KMeans and Affinity Propagation. After comparing these two clustering structures, the next step is to test the relationship between clusters and the <em>&#39;Ease of Doing Business&#39;</em> ranks to see if there clusters are formed around ranks (whether ranks are a good representative of how locations are clustered).</p><hr>
+            <p>These tests were chosen not only to test the effectiveness of the data-set in an analytical environment, but to also see whether regulatory burdens truly have an impact on business starts.</p><hr>
+          <h2 id="about-the-project">About the Project</h2>
+            <p>The Doing Business North America (DBNA) project annually provides objective measures of the scale and scope of business regulations in 130 cities across 92 states, provinces, and federal districts of the United States, Canada, and Mexico. It uses these measures to score and rank cities in regard to how easy or difficult it is to set up, operate, and shut down a business. </p><hr>
+            <p>Over the years, researchers have begun to understand how robust measurement and ranking of regulations that either enhance business activity or constrain it can provide substantial insight into economic outcomes. Objective measurements of those regulations have been vital in this understanding. Unlike many studies that measure regulations at the state level, this annual study measures the impact at the city level and does so for over 100 municipal jurisdictions across North America.</p><hr>
+            <p>The Doing Business North America team collected data on 63 different regulatory and economic indicators across six different categories. The data collected came entirely from official and publicly-available sources.</p><hr>
+          <h2 id="about-the-data">About the Data</h2>
+            <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/categories.PNG"/></p>
+            <p>This project manually collects data on primary regulatory burdens businesses face throughout the entire life-cycle of a business, ranging from Starting a Business to eventually Resolving Insolvency if the business were to shut down / go bankrupt. The report contains data on 63 regulatory indicators within the following six categories:</p><hr>
+              <ol>
+                <li>Starting a Business</li>
+                <li>Employing Workers</li>
+                <li>Getting Electricity</li>
+                <li>Paying Taxes</li>
+                <li>Land and Space Use</li>
+                <li>Resolving Insolvency</li>
+              </ol>
+            <p>These six categories are then combined to create a catch-all value known as the <em>&#39;Ease of Doing Business&#39;</em>. This is the value used in all analysis for this project.</p>
+          <h4 id="special-thanks-to-arizona-state-university-and-the-center-for-the-study-of-economic-liberty">Special Thanks to Arizona State University and the Center for the Study of Economic Liberty</h4>
+            <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/brands.PNG"/></p>
       </div>
     </div>
 
-  <!-- Create Footer -->
+<!-- Create Footer -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
