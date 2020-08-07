@@ -29,3 +29,7 @@ If you wish to financially contribute to the [Center for the Study of Economic L
 ## License
 
 The data for this project (found in `_data`) is free to use and made publicly-available for research and scholarly use. Sourcing information will be included at a later time.
+
+## Test Image
+![Correlation Matrix (REMOVE)](https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/allDistanceMatrix.png)
+Format: ![Alt Text](url)
