@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset='utf-8'>
   <title>Doing Business North America</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -10,16 +11,34 @@
 <body>
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="dbna.herokuapp.com">Home</a>
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="/analysis">Analysis</a>
+    <a class="navbar-brand" href="/clustering">Clustering</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  </nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Create Maps Dropdown -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Methodology</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class = "nav-link" href="/methodology/starting-a-business">Starting a Business</a>
+                <a class = "nav-link" href="/methodology/employing-workers">Employing Workers</a>
+                <a class = "nav-link" href="/methodology/getting-electricity">Getting Electricity</a>
+                <a class = "nav-link" href="/methodology/paying-taxes">Paying Taxes</a>
+                <a class = "nav-link" href="/methodology/land-space-use">Land and Space Use</a>
+                <a class = "nav-link" href="/methodology/resolving-insolvency">Resolving Insolvency</a>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
   <div class="jumbotron text-center">
     <h1>Doing Business North America</h1>
-    <h3>World Bank</h3>
-    <h3>Click to explore the data.</h3>
+    <h3>A Research Project Inspired by the World Bank Doing Business Report</h3>
+    <h4>By: Paul Bernert</h4>
   </div>
 
   <!--Create Containers-->

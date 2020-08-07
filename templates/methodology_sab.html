@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset='utf-8'>
   <title>Starting a Business | DBNA</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -25,61 +26,52 @@
   <div class="container">
     <div class="row">
       <div class="col-md-7">
-        <h1>Starting <strong>a Business</strong></h1>
-        <h2>What Does Starting a Business Measure?</h2>
-        <hr>
-        <p>Doing Business North America records all procedures officially required for an entrepreneur to start up and formally operate a limited liability company, as well as the time
-          and cost to complete these procedures. These procedures include the processes entrepreneurs undergo when obtaining all necessary approvals, licenses, and permits, and completing
-          any required notifications, verifications, or inscriptions for the company and employees with relevant authorities.</p>
-
-        <p>After a study of laws, regulations, and publicly available information on business entry, a detailed list of the most common procedures was developed, along with the time
-          and cost to comply with each procedure under normal circumstances.</p>
-
-        <p>Information is also collected on the sequence in which procedures are to be completed and whether procedures may be carried out simultaneously. It is assumed that any
-          required information is readily available and that the entrepreneur will pay no bribes.</p>
-
-        <h2>Assumptions about the Business</h2>
-        <hr>
+        <h1 id="starting-a-business">STARTING A BUSINESS</h1>
+        <h2 id="what-does-starting-a-business-measure-">WHAT DOES STARTING A BUSINESS MEASURE?</h2>
+        <p>Doing Business North America records all procedures officially required for an entrepreneur to start up and formally operate a limited liability company, as well as the time and cost to complete these procedures. These procedures include the processes entrepreneurs undergo when obtaining all necessary approvals while completing any required notifications, verification steps, or inscriptions for the company and employees with relevant authorities. It does <strong>not</strong> include steps related to keeping a business compliant. For example, it does not include steps related to obtaining licenses and permits (which is generally a necessary step to continue legal operation).</p>
+        <p>After a study of laws, regulations, and publicly available information on business entry, a detailed list of the most common procedures was developed, along with the time and cost to comply with each procedure under normal circumstances.</p>
+        <p>Information is also collected on the sequence in which procedures are to be completed and whether procedures may be carried out simultaneously. It is assumed that any required information is readily available and that the entrepreneur will pay no bribes.</p>
+        <h2 id="assumptions-about-the-business">ASSUMPTIONS ABOUT THE BUSINESS</h2>
         <p>To make the data comparable across economies, several assumptions about the business are used.</p>
-        <p><strong>The business:</strong></p>
-          <ul>
-            <li>Is a limited liability company. If there is more than one type of limited liability company in the economy, the limited liability form most common among domestic firms is chosen.</li>
-            <li>Operates in the economy’s largest business city. For 14 of the largest economies, the data for multiple cities is collected.</li>
-            <li>Is 100% domestically owned.</li>
-            <li>Has start-up capital of two times income per capita.</li>
-            <li>Performs general commercial activities, such as the production or sale to the public of goods or services. The business does not perform foreign trade activities and does not handle products subject to a special tax regime. </li>
-            <li>Does not qualify for any financial incentives or special benefits.</li>
-            <li>Has up to 50 employees.</li>
-            <li>Has a company deed that is 10 pages long.</li>
-          </ul>
-
-        <h2>Indicators</h2>
-        <p><strong>Number of Procedures</strong></p>
-        <p>A procedure is deﬁned as any interaction of the company founder with external parties. Procedures that must be completed in the same building but in different offices or at different
-          counters are counted as separate procedures. If the founder has to visit the same office several times for different sequential procedures, each is counted separately.
-          The founder is assumed to complete all procedures themselves, unless the use of such a third party is mandated by law. If the services of professionals are required, procedures
-          conducted by such professionals on behalf of the company are counted as separate procedures. Each electronic procedure is counted as a separate procedure. Only pre-incorporation
-          procedures that are officially required or commonly done in practice for an entrepreneur to formally operate a business are recorded.</p>
-
-        <p>Procedures required for official correspondence or transactions with public agencies are also included. For example, if a company seal or stamp is required on official documents,
-          such as tax declarations, obtaining the seal or stamp is counted. Similarly, if a company must open a bank account in order to complete any subsequent procedure,
-          this transaction is included as a procedure.</p>
-
-        <p>Only procedures required for all businesses are included. Industry-specific procedures are excluded.
-          Procedures that the company undergoes to connect to electricity, water, gas, and waste disposal services are not included in the Starting a Business indicators.</p>
-
-        <p><strong>Time (in Calendar Days)</strong></p>
-        <p>Time is recorded in calendar days. It is assumed that the minimum time required for each procedure is one day. Procedures that can be fully completed online are also considered to take one day.
-          Although procedures may take place simultaneously, they cannot start on the same day, unless procedures can be completed entirely online. The registration process is considered completed once
-          the company has received the final incorporation document or can officially commence business operations. It is assumed that the entrepreneur does not waste time and commits to completing
-          each remaining procedure without delay. The time that the entrepreneur spends on gathering information is not measured. It is assumed that the entrepreneur is aware of all entry requirements
-          and their sequence from the beginning but has had no prior contact with any of the officials involved.</p>
-
-        <p><strong>Cost (as a Percent of Income per Capita)</strong></p>
-        <p>Cost is recorded as a percentage of the economy’s income per capita. It includes all official fees and fees for legal or professional services if such services are required by law or commonly used in practice.
-          Fees for purchasing and legalizing company books are included if these transactions are required by law. In all cases the cost excludes bribes.</p>
-
-        <h2>How the 'Starting a Business' Category is Ranked and Scored<h2>
+        <h3 id="the-business-">THE BUSINESS:</h3>
+        <ul>
+          <li>Is a limited liability company. </li>
+          <li>If there is more than one type of limited liability company in the economy, the limited liability form most common among domestic firms is chosen.</li>
+          <li>If the country does not have a limited liability company option, the company structure most similar to that of an LLC is chosen.</li>
+          <li>Operates in the economy’s largest business city.</li>
+          <li>Is 100% domestically owned and operated.</li>
+          <li>Has start-up capital of two times income per capita.</li>
+          <li>Performs general retail activities, such as the production or sale to the public of goods or services (NAICS Code: 4523).</li>
+          <li>The business does not perform foreign trade activities and does not handle products subject to a special tax regime.   </li>
+          <li>Does not qualify for any financial incentives or special benefits.</li>
+          <li>Has 50 employees, including the owner / entrepreneur.</li>
+          <li>Has a company deed that is 10 pages long.</li>
+        </ul>
+        <h2 id="indicators">INDICATORS</h2>
+        <h3 id="number-of-procedures-to-start-a-business">Number of Procedures to Start a Business</h3>
+        <p>A procedure is deﬁned as any interaction of the company founder with external parties. Procedures that must be completed in the same building but in different offices or at different counters are counted as separate procedures. If the founder has to visit the same office several times for different sequential procedures, each is counted separately. The founder is assumed to complete all procedures themselves, unless the use of such a third party is mandated by law. If the services of professionals are required, procedures conducted by such professionals on behalf of the company are counted as separate procedures. Each electronic procedure is counted as a separate procedure. Only pre-incorporation procedures that are officially required or commonly done in practice for an entrepreneur to formally operate a business are recorded.</p>
+        <p>Procedures required for official correspondence or transactions with public agencies are also included. For example, if a company seal or stamp is required on official documents, such as tax declarations, obtaining the seal or stamp is counted. Similarly, if a company must open a bank account in order to complete any subsequent procedure, this transaction is included as a procedure.</p>
+        <p>Only procedures required for Limited Liability Companies is being accounted for in <em>Starting a Business</em>. Procedures that the company undergoes to connect to electricity, water, gas, and waste disposal services are <strong>not</strong> included in the <em>Starting a Business</em> indicators.</p>
+        <h4 id="additional-information-">Additional Information:</h4>
+        <p>After a study of laws, regulations, and publicly available information on business entry, a detailed list of the most common procedures was developed, along with the time and cost to comply with each procedure under normal circumstances. That list is composed of the following eight steps for the United States:</p>
+        <ol>
+          <li>Reserve/Register the Name of LLC</li>
+          <li>Choose/Assign a Registered Agent</li>
+          <li>File the Articles of Incorporation/Organization/Formation (or any similar name)</li>
+          <li>Complete State LLC Publication Requirements</li>
+          <li>File the Initial Statement of Information</li>
+          <li>Create a State LLC Operating Agreement</li>
+          <li>Obtain an Employment Identification Number for your States LLC</li>
+          <li>Additional County / City Level Requirements</li>
+        </ol>
+        <h3 id="time-in-working-days-to-start-a-business">Time (in Working Days) to Start a Business</h3>
+        <p>Time is recorded in calendar days. It is assumed that the minimum time required for each procedure is one day. Procedures that can be fully completed online are also considered to take one day. Although procedures may take place simultaneously, they cannot start on the same day, unless procedures can be completed entirely online. The registration process is considered completed once the company has received the final incorporation document or can officially commence business operations. </p>
+        <p>It is assumed that the entrepreneur does not waste time and commits to completing each remaining procedure without delay. The time that the entrepreneur spends on gathering information is not measured. It is assumed that the entrepreneur is aware of all entry requirements and their sequence from the beginning but has had no prior contact with any of the officials involved. If there is an option to expedite processing times, that option is always taken (even if it comes with an additional fee, which will be captured in the <em>Cost (as a Percent of Income per Capita) to Start a Business</em> indicator). </p>
+        <h4 id="additional-information-">Additional Information:</h4>
+        <p>This indicator measures the amount of time it takes to finish all procedures at both the city and state level. Ideally, information related to processing time is listed somewhere within the official sources, but very rarely is that the case. Most locations choose not to commit to a specific time frame in order to protect themselves from additional liability to complete things in a timely manner.</p>
+        <h3 id="cost-as-a-percent-of-income-per-capita-to-start-a-business">Cost (as a Percent of Income per Capita) to Start a Business</h3>
+        <p>Cost is recorded as a percentage of the economy’s income per capita. It includes all official fees and fees for legal or professional services if such services are required by law or commonly used in practice. Fees for purchasing and legalizing company books are included if these transactions are required by law. In all cases the cost excludes bribes.</p>
+        <h2 id="how-the-starting-a-business-category-is-ranked-and-scored">How the ‘Starting a Business’ Category is Ranked and Scored</h2>
         <p>The ‘Starting a Business’ category was ranked and scored using the following three indicators:</p>
         <table>
           <tbody>
@@ -110,8 +102,6 @@
               <td>
                 <p>13 procedures</p>
               </td>
-              
-
         </div>
       </div>
     </div>
