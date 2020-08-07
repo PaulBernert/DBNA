@@ -32,4 +32,3 @@ The data for this project (found in `_data`) is free to use and made publicly-av
 
 ## Test Image
 ![Correlation Matrix (REMOVE)](https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/allDistanceMatrix.png)
-Format: ![Alt Text](url)
