@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Analysis | DBNA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="/analysis">Analysis</a>
+    <a class="navbar-brand" href="/clustering">Clustering</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Methodology Dropdown -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Methodology</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class = "nav-link" href="/methodology/starting-a-business">Starting a Business</a>
+              <a class = "nav-link" href="/methodology/employing-workers">Employing Workers</a>
+              <a class = "nav-link" href="/methodology/getting-electricity">Getting Electricity</a>
+              <a class = "nav-link" href="/methodology/paying-taxes">Paying Taxes</a>
+              <a class = "nav-link" href="/methodology/land-space-use">Land and Space Use</a>
+              <a class = "nav-link" href="/methodology/resolving-insolvency">Resolving Insolvency</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/methodology.PNG"/></p>
+
+  <!--Create Containers-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 id="paying-taxes">Paying Taxes</h1>
+        <h2 id="what-does-paying-taxes-measure-">What does Paying Taxes Measure?</h2>
+        <p>Doing Business North America measures all taxes that are mandated at any level of government (including federal, state/province, and city). Indicators related to personal, corporate, and commercial property tax rates are collected to provide a full spectrum of taxes that businesses, employers, employees, and city residents can expect to pay.
+        Assumptions about the Individual and the Business </p>
+        <p>Due to the complexity of local tax systems, and to make the data comparable across economies, several assumptions about the business and the taxes and contributions are used.</p>
+        <h3 id="the-individual-">The individual:</h3>
+        <ul>
+        <li>Has annual income of one times the city’s average household income.</li>
+        </ul>
+        <h3 id="the-business-">The business:</h3>
+        <ul>
+        <li>Is in its second year of operation.</li>
+        <li>Does not qualify for investment incentives or any beneﬁts apart from those related to the age or size of the company.</li>
+        <li>Has revenue of two times the city’s average household income.</li>
+        </ul>
+        <h3 id="assumptions-about-taxes">Assumptions about Taxes</h3>
+        <ul>
+        <li>All the taxes and contributions recorded are those paid in the second year of operation.</li>
+        </ul>
+        <h2 id="indicators">Indicators</h2>
+        <h3 id="total-personal-income-tax-rate">Total Personal Income Tax Rate</h3>
+        <p>The total personal income tax rate is a group of indexes that measure taxes levied on an individual’s income. It is comprised of three indicators: (i) the federal personal income tax rate, (ii) the state (or province) personal income tax rate, and (iii) the city personal income tax rate. It is assumed that an individual has annual earnings equal to that of one times the local average household income for determining the appropriate tax bracket in cases where a progressive tax system is used. The statutory tax rate that would apply to that income level is recorded (i.e., this is not meant to be an effective tax).</p>
+        <h3 id="total-corporate-income-tax-rate">Total Corporate Income Tax Rate</h3>
+        <p>The total corporate income tax rate is a group of indexes that measure taxes levied on a corporation’s income. It is comprised of three indicators: (i) the federal corporate income tax rate, (ii) the state (or province) corporate income tax rate, and (iii) the city corporate income tax rate. It is assumed that the corporation has annual earnings equal to that of two times the local average household income for determining the appropriate tax bracket in cases where a progressive tax system is used. The statutory tax rate that would apply to that income level is recorded (i.e., this is not meant to be an effective tax).</p>
+        <h3 id="total-gross-receipts-tax-rate">Total Gross Receipts Tax Rate</h3>
+        <p>The total gross receipts tax rate is a group of indexes that measure taxes levied on a corporation’s receipts. It is comprised of the three indicators that measure statutory tax rates: (i) the federal gross receipts tax rate, (ii) the state (or province) gross receipts tax rate, and (iii) the city gross receipts tax rate. </p>
+        <h3 id="commercial-property-effective-tax-rate">Commercial Property Effective Tax Rate</h3>
+        <p>The commercial property effective tax rate measures annual taxes levied against commercial property. It is measured as a percentage of total commercial property value. Commercial property tax rates are calculated by using the local mill rate for a property and the local assessment ratio.
+        How the ‘Paying Taxes’ Category is Ranked and Scored</p>
+        <h2 id="the-paying-taxes-category-was-ranked-and-scored-using-the-following-four-variables-">The ‘Paying Taxes’ category was ranked and scored using the following four variables:</h2>
+        <p>Topic and Indicator | Highest Performer | Lowest Performer</p>
+        <p>Total Personal Income Tax Rate | 22.00% | 58.66%+</p>
+        <p>Total Corporate Income Tax Rate | 9.00% | 40.00%+</p>
+        <p>Total Gross Receipts Tax Rate | 0.00% | 3.28%+</p>
+        <p>Commercial Property Effective Tax Rate | 0.257% | 3.80%</p>
+        <p>For each indicator, there is a top performer and a bottom performer. Economies with the best performance for a given indicator are awarded 10 “points,” or a score of 10. Cities at the level of bottom performance, or cities at or below two standard deviations from the mean, are awarded a score of 0. All the cities in between are scored based on their distance to the frontier. For each city, the number of awarded points across all indicators is aggregated, then divided by the number of indicators for which we had data. This is done because not all locations have complete data across all indicators, and doing so allows for all locations to be included in comparison.</p>
+        <p>For more information on how indicators, indexes, and groups are scored, how the ranking and scoring system for a category works, or how the overall Ease of Doing Business rank and score were derived, please read the first section of this methodology.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>

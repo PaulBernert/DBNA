@@ -34,6 +34,40 @@
     </div>
   </nav>
 
+  <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/dbnaHeading.PNG"/></p>
+
+  <div class="container">
+    <div class="text">
+    <h1 id="research-question-1">Research Question #1</h1>
+    <h2 id="question-does-the-_-ease-of-doing-business-_-score-correlate-with-business-activity-">Question: Does the <em>&#39;Ease of Doing Business&#39;</em> Score Correlate with Business Activity?</h2>
+    <p>In order to determine whether the <em>&#39;Ease of Doing Business&#39;</em> Score correlates with relative business activity for a given location, we must first determine what the <em>&#39;Ease of Doing Business&#39;</em> Score measures and how it is calculated.</p>
+    <p>The <em>&#39;Ease of Doing Business&#39;</em> Score is a metric created that focuses on the regulatory burdens a small- to medium-sized business would face from the birth of the business to the death of the business in cities across North America. It takes these regulatory burdens (over 60 included in this report) and creates a single number used to represent the regulatory climates in these different locations.</p>
+    <p>The <em>&#39;Ease of Doing Business&#39;</em> Score is calculated by using the raw data and applying a basic linear transformation equation of: ((W-C)/(W-B))<em>10, where W is the Worst Regulatory performance for a given indicator, B is the Best Regulatory performance for a given indicator, and C is the performance for the current observation (the city being calculated). For example, if the lowest minimum wage is $7.25 across the U.S., the highest minimum wage is $15.00 across the U.S., and I want to know the value for Phoenix AZ (a $12.00 minimum wage), that would be: (($15.00-$12.00)/($15.00-$7.25))</em>10 =&gt; ~3.87. A location with a $15 minimum wage would get a 0.00 and a location with a $7.25 minimum wage would get a 10.00, where 10 is granted to the &quot;best regulatory performance&quot;, and 0 is granted to the &quot;worst regulatory performance&quot;.</p>
+    <p>This process is repeated for all indicators in a category, and then across all categories to get a final <em>&#39;Ease of Doing Business&#39;</em> Score. The locations with the highest scores are granted the highest rank, and the locations with the lowest scores are granted the lowest rank.</p>
+    <p>With the <em>&#39;Ease of Doing Business&#39;</em> Scores calculated, the top 10 cities are as follows:</p>
+    <ol>
+    <li>Raleigh - North Carolina (82.42)</li>
+    <li>Jackson - Mississippi (81.39)</li>
+    <li>Tulsa - Oklahoma (81.25)</li>
+    <li>Sioux Falls - South Dakota (81.17)</li>
+    <li>Charleston - South Carolina (80.69)</li>
+    <li>Houston - Texas (80.64)</li>
+    <li>San Antonio - Texas (80.58)</li>
+    <li>Colorado Springs - Colorado (80.16)</li>
+    <li>Cincinnati - Ohio (79.75)</li>
+    <li>Cheyenne - Wyoming (79.65)</li>
+    </ol>
+    <p>The assumption is that there should be relatively higher amounts of business activity in locations that have lower regulatory burdens, because lower burdens / barriers to entry incentivize taking higher risk and being involved in entrepreneurial activity. To test this theory, we need to find a metric of relative business activity.</p>
+    <p>Because the DBNA data specifically collects information geared towards small- to medium-sized businesses, data for this particular category of business type from the Census and other government websites was used. The Census provides the number of businesses with 25 or fewer employees at the city level, which is exactly what we need. The number of businesses is then divided by the city population, to get a number that reflects &quot;the Number of Businesses relative to the local population&quot;. Cities with more businesses relative to population indicate that the population is, on average, more likely to be involved in entrepreneurial activity.</p>
+    <p>We can now begin to ask whether the DBNA <em>&#39;Ease of Doing Business&#39;</em> Score correlates with relative business activity. To do this, we use Numpy, Scipy and Matplotlib to produce the following results:</p>
+    <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/correlation.png"/></p>
+    <p>The results of our calculations tell us that:
+    <strong><em>The R-Value between DBNA Scores and Relative Business Activity is 0.309564</em></strong>, meaning the <em>&#39;Ease of Doing Business&#39;</em> Score and <em>&#39;Relative Business Activity&#39;</em> calculation have fairly strong, positive correlation at roughly 31 percent.</p>
+    <h2 id="conclusion">Conclusion</h2>
+    <p>The results of this first research question were very satisfying. This data-set has never undergone any form of analysis before, so I was quite pessimistic in its ability to produce coherent results. Not only did it produce coherent results, but it also confirmed our initial hypothesis that regulatory burdens may indeed play a role in relative business activity. The magnitude of that correlation isn&#39;t perhaps as large as initially anticipated, but it does provide some context to where businesses start. It also allows us to now incorporate additional, non-regulatory indicators to see if we can complete a bigger picture on answering the question &quot;What are the determinants when choosing where to open a business&quot;. The next steps forward are clear, and these are questions we plan to answer in time.</p>
+  </div>
+</div>
+
   <!-- Create Footer -->
 
   <!-- Optional JavaScript -->

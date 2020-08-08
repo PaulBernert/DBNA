@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Analysis | DBNA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="/analysis">Analysis</a>
+    <a class="navbar-brand" href="/clustering">Clustering</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Methodology Dropdown -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Methodology</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class = "nav-link" href="/methodology/starting-a-business">Starting a Business</a>
+              <a class = "nav-link" href="/methodology/employing-workers">Employing Workers</a>
+              <a class = "nav-link" href="/methodology/getting-electricity">Getting Electricity</a>
+              <a class = "nav-link" href="/methodology/paying-taxes">Paying Taxes</a>
+              <a class = "nav-link" href="/methodology/land-space-use">Land and Space Use</a>
+              <a class = "nav-link" href="/methodology/resolving-insolvency">Resolving Insolvency</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/methodology.PNG"/></p>
+
+  <!--Create Containers-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 id="employing-workers">Employing Workers</h1>
+        <h2 id="what-does-employing-workers-measure-">WHAT DOES EMPLOYING WORKERS MEASURE?</h2>
+        <p>Doing Business North America records a myriad of variables related to the flexibility and regulation of employing workers, specifically as it relates to the areas of hiring, working hours, laying off workers, and leave. There are nine indicators used to represent the legal requirements or fiscal burdens necessary to comply with an economy’s labor laws.</p>
+        <h2 id="assumptions-about-the-business">ASSUMPTIONS ABOUT THE BUSINESS</h2>
+        <h3 id="the-business-">THE BUSINESS:</h3>
+        <ul>
+        <li>Is a limited liability company.</li>
+        <li>If there is more than one type of limited liability company in the economy, the limited liability form most common among domestic firms is chosen.</li>
+        <li>If the country does not have a limited liability company option, the company structure most similar to that of an LLC is chosen.</li>
+        <li>Operates in the economy’s largest business city.</li>
+        <li>Is 100% domestically owned and operated.</li>
+        <li>Performs general retail activities, such as the production or sale to the public of goods or services (NAICS Code: 4523).</li>
+        <li>Does not qualify for financial incentives or special benefits.</li>
+        <li>Has 50 employees, including the owner / entrepreneur.</li>
+        <li>Is not subject to collective bargaining agreements.</li>
+        <li>Abides by every law and regulation but does not grant workers more benefits than those mandated by law or regulation.</li>
+        </ul>
+        <h3 id="the-worker-">THE WORKER:</h3>
+        <ul>
+        <li>Is a full-time employee (works 2,080 hours per year).</li>
+        <li>Is in their second year of employment and is eligible for all employment benefits.</li>
+        <li>Is not a member of a labor union, unless membership is necessary.</li>
+        <li>Earns minimum wage.</li>
+        </ul>
+        <h2 id="indicators">INDICATORS</h2>
+        <h3 id="annual-minimum-wage-as-a-percent-of-income-per-capita">Annual Minimum Wage as a Percent of Income per Capita</h3>
+        <p>The Annual Minimum Wage (as a Percent of Income per Capita) is calculated by using a location’s hourly minimum wage, multiplied by the number of work-hours in a year (2,080), then dividing that number by a location’s income per capita.</p>
+        <h4 id="additional-notes-">Additional Notes:</h4>
+        <p>Rather than simply using the minimum wage values, choosing annual minimum wage relative to income per capita gives context to the magnitude of the wage. Two different cities with the same minimum wage may feel the impact of paying that wage to different extents.</p>
+        <h3 id="maximum-length-of-probationary-period-in-calendar-months-">Maximum Length of Probationary Period (in Calendar Months)</h3>
+        <p>The maximum length of probationary period measures how long new employees are eligible to be classified under a probationary period. The length is measured in calendar months.</p>
+        <h3 id="average-paid-annual-leave-for-1-5-and-10-years-of-tenure-in-working-days-">Average Paid Annual Leave for 1, 5 and 10 Years of Tenure (in Working Days)</h3>
+        <p>The paid annual leave average is a group of three indicators: (i) paid annual leave for a worker with one year of tenure; (ii) paid annual leave for a worker with five years of tenure; and (iii) paid annual leave for a worker with 10 years of tenure. Paid annual leave is measured in working days. These indicators measure the number of paid leave days a worker with different employment tenures is eligible for. </p>
+        <h3 id="average-notice-period-for-1-5-and-10-years-of-tenure-in-weeks-">Average Notice Period for 1, 5 and 10 Years of Tenure (in Weeks)</h3>
+        <p>The notice period average is a group of three indicators: (i) notice period for redundancy dismissal for a worker with one year of tenure; (ii) notice period for redundancy dismissal for a worker with five years of tenure; and (iii) notice period for redundancy dismissal for a worker with 10 years of tenure. Notice period requirements are measured in calendar weeks. These indicators measure the time an employer  must provide an employee before dismissal due to redundancy.</p>
+        <h3 id="average-severance-pay-for-1-5-and-10-years-of-tenure-in-weeks-">Average Severance Pay for 1, 5 and 10 Years of Tenure (in Weeks)</h3>
+        <p>The severance pay average is a group of three indicators: (i) severance pay for redundancy dismissal for a worker with 1 year of tenure; (ii) severance pay for redundancy dismissal for a worker with 5 years of tenure; and (iii) severance pay for redundancy dismissal for a worker with 10 years of tenure. Severance pay requirements are measured in calendar weeks. These indicators measure the amount of weeks of pay an employer must provide an employee before immediate dismissal due to redundancy.</p>
+        <h3 id="length-of-paid-maternity-leave-in-weeks-">Length of Paid Maternity Leave (in Weeks)</h3>
+        <p>The length of paid maternity leave measures how much paid leave an employer must provide an eligible worker who has taken maternity leave. It is measured in working weeks. </p>
+        <h3 id="length-of-unpaid-maternity-leave-in-weeks-">Length of Unpaid Maternity Leave (in Weeks)</h3>
+        <p>The length of Unpaid maternity leave measures the number of days per year an employer must provide an employee with unpaid maternity leave. It is measured in working weeks.</p>
+        <h3 id="length-of-paid-sick-leave-in-working-days-">Length of Paid Sick Leave (in Working Days)</h3>
+        <p>The length of paid sick leave measures the number of days per year an employer must provide an employee with paid sick leave. It is measured in working days.</p>
+        <h3 id="length-of-unpaid-sick-leave-in-working-days-">Length of Unpaid Sick Leave (in Working Days)</h3>
+        <p>The length of unpaid sick leave measures the number of days per year an employer must provide an employee with unpaid sick leave. It is measured in working days.</p>
+        <h2 id="how-the-employing-workers-category-is-ranked-and-scored">How the ‘Employing Workers’ Category is Ranked and Scored</h2>
+        <p>The ‘Employing Workers’ category was ranked and scored using the following nine indicators:</p>
+        <p>Topic and Indicator | Best Performer | Worst Performer</p>
+        <p>For each indicator, there is a top performer and a bottom performer. Economies with the best performance for a given indicator are awarded 10 “points,” or a score of 10. Cities at the level of bottom performance, or cities at or below two standard deviations from the mean, are awarded a score of 0. All the cities in between are scored based on their distance to the frontier. For each city, the number of awarded points across all indicators is aggregated, then divided by the number of indicators for which we had data. This is done because not all locations have complete data across all indicators, and doing so allows for all locations to be included in comparison.</p>
+        <p>For more information on how indicators, indexes, and groups are scored, how the ranking and scoring system for a category works, or how the overall Ease of Doing Business rank and score were derived, please read the first section of this methodology.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>

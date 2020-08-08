@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Analysis | DBNA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="/analysis">Analysis</a>
+    <a class="navbar-brand" href="/clustering">Clustering</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Methodology Dropdown -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Methodology</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class = "nav-link" href="/methodology/starting-a-business">Starting a Business</a>
+              <a class = "nav-link" href="/methodology/employing-workers">Employing Workers</a>
+              <a class = "nav-link" href="/methodology/getting-electricity">Getting Electricity</a>
+              <a class = "nav-link" href="/methodology/paying-taxes">Paying Taxes</a>
+              <a class = "nav-link" href="/methodology/land-space-use">Land and Space Use</a>
+              <a class = "nav-link" href="/methodology/resolving-insolvency">Resolving Insolvency</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/methodology.PNG"/></p>
+
+  <!--Create Containers-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 id="getting-electricity">Getting Electricity</h1>
+        <h2 id="what-does-getting-electricity-measure-">What does Getting Electricity measure?</h2>
+        <p>Doing Business North America records all procedures required for a business to obtain a permanent electricity connection and supply for a standard commercial property. These procedures include: applications and contracts with electricity utilities, all necessary inspections and clearances from the distribution utility as well as other agencies, and the external and final connection works. The time to complete the necessary procedures listed above is also recorded. </p>
+        <p>In addition, Doing Business North America measures the cost of electricity in two ways: (i) the price of a kilowatt-hour (kWh) of electricity for use in a commercial property, and (ii) the annual cost of electricity used in a commercial property as a percentage of income per capita.
+        Assumptions about the Property</p>
+        <p>To make the data comparable across economies, several assumptions about the property, the electricity connection, type of electricity, and consumption of energy are used.</p>
+        <h3 id="the-property-">The property:</h3>
+        <ul>
+        <li>Is located in the economy’s largest business city. For 14 of the largest economies, the data for multiple cities is collected.</li>
+        <li>Is located in an area where similar commercial properties are typically located. In this area, a new electricity connection is not eligible for a special investment promotion regime.</li>
+        <li>Is located in an area with no physical constraints. For example, the property is not near a railway.</li>
+        <li>Is a new construction and is being connected to electricity for the first time.</li>
+        <li>Operates 30 days a month from 9:00 a.m. to 5:00 p.m. with equipment utilized at 80% capacity on average and that there are no electricity cuts.</li>
+        </ul>
+        <h2 id="assumptions-about-the-electricity-connection">Assumptions about the Electricity Connection</h2>
+        <h3 id="the-electricity-connection-">The electricity connection:</h3>
+        <ul>
+        <li>Is a permanent one.</li>
+        <li>The annual energy consumption is 322,560 kilowatt-hours (kWh); monthly energy consumption is 26,880 kWh; hourly consumption is 112 kWh.</li>
+        <li>Prices of electricity are treated as constant throughout the course of a year; no seasonal, monthly, or day-time adjustments due to demand are applied.</li>
+        <li>If multiple electricity suppliers exist, the property is served by the cheapest supplier.</li>
+        <li>No renewable energy sources are used in electricity generation or electricity consumption. Secondary energy sources are used exclusively.
+          No renewable energy tax incentives are considered or applied.</li>
+        </ul>
+        <h2 id="indicators">Indicators</h2>
+        <h3 id="procedures-to-obtain-an-electricity-connection">Procedures to Obtain an Electricity Connection</h3>
+        <p>A procedure is defined as any interaction of the company’s employees or its main electrician or electrical engineer with external parties. Interactions between company employees and steps related to the internal electrical wiring, such as the design and execution of the internal electrical installation plans, are not counted as procedures. However, internal wiring inspections and certifications that are prerequisites to obtain a new connection are counted as procedures. Procedures that must be completed with the same utility but with different departments are counted as separate procedures.</p>
+        <p>A procedure is always counted for the external works — whether it is carried out by the utility or a private contractor. However, the external work procedure and the meter installation can be counted as one unique procedure, provided two specific conditions are met: (i) both the external works and meter installation are carried out by the same company or agency, and (ii) there is no additional interaction for the customer between the external works and the meter installation.</p>
+        <p>If an internal wiring inspection — or a related certification on the installation — is needed to obtain a new connection, then it is counted as a procedure. However, if an internal inspection and the meter installation occur (i) at the same time and (ii) without additional follow-up or through a separate request, then these are counted as one procedure.</p>
+        <h3 id="time-required-to-complete-each-procedure">Time Required to Complete Each Procedure</h3>
+        <p>Time is recorded in calendar days. The measure captures the duration that the electricity utility indicates is necessary in practice to complete a procedure with minimal follow-up and no extra payments. It is assumed that the minimum time required for each procedure is one day. Although procedures may take place simultaneously, they cannot start on the same day, unless procedures can be completed entirely online. It is assumed that the company does not waste time and commits to completing each remaining procedure without delay. The time that the company spends on gathering information is not taken into account. It is assumed that the company is aware of all electricity connection requirements and their sequence from the beginning.</p>
+        <h3 id="price-of-electricity-used-in-commercial-property">Price of Electricity Used in Commercial Property</h3>
+        <p>Doing Business North America measures the price of electricity used by commercial properties in two ways. The first method looks at the cost of electricity for a single kilowatt-hour (kWh) measured in U.S. cents. It is important to note that a kilowatt-hour is a very small unit; it is assumed that the commercial property uses 112 kWh per hour, and 322,560 kWh per year. </p>
+        <p>This granular type of data provides the opportunity to calculate other means of representing the cost of electricity (such as the second approach used for this variable). However, the costs associated with completing the procedures necessary to connect a commercial property or warehouse to an electrical source are not recorded when using this new method. Important up-front and administrative costs are therefore not included in this version of the report.</p>
+        <p>The second approach looks at the annual cost of electricity as a percentage of the city’s income per capita. The annual assumption of 322,560 kWh is used in this calculation, multiplied by the price of electricity mentioned above, all of which is divided by income per capita. </p>
+        <p>This second approach provides a perspective that allows for costs to be interpretable and transferable between Doing Business North America categories. For example, the cost of electricity can now be directly compared to the wage variables in Employing Workers category, or costs associated with the procedures required in the Starting a Business category.
+        How the ‘Getting Electricity’ Category is Ranked and Scored</p>
+        <p>The Getting Electricity category was ranked and scored using the following four indicators:</p>
+        <p><strong>Topic and Indicator | Highest Performer | Lowest Performer</strong></p>
+        <p><em>Procedures</em> | 4 procedures | 6+ procedures</p>
+        <p><em>Time</em> | 44 days | 89+ days</p>
+        <p><em>Cost (% of Income per Capita)</em> | 0.29% | 15.01%</p>
+        <p><em>Cost (¢ per kWh)</em> | 3.30¢ | 33.40¢</p>
+        <p>For each indicator, there is a top performer and a bottom performer. Economies with the best performance for a given indicator are awarded 10 “points,” or a score of 10. Cities at the level of bottom performance, or cities at or below two standard deviations from the mean, are awarded a score of 0. All the cities in between are scored based on their distance to the frontier. For each city, the number of awarded points across all indicators is aggregated, then divided by the number of indicators for which we had data. This is done because not all locations have complete data across all indicators, and doing so allows for all locations to be included in comparison.</p>
+        <p>For more information on how indicators, indexes, and groups are scored, how the ranking and scoring system for a category works, or how the overall Ease of Doing Business rank and score were derived, please read the first section of this methodology.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>

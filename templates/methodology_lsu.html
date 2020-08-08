@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Analysis | DBNA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="/analysis">Analysis</a>
+    <a class="navbar-brand" href="/clustering">Clustering</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Methodology Dropdown -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Methodology</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class = "nav-link" href="/methodology/starting-a-business">Starting a Business</a>
+              <a class = "nav-link" href="/methodology/employing-workers">Employing Workers</a>
+              <a class = "nav-link" href="/methodology/getting-electricity">Getting Electricity</a>
+              <a class = "nav-link" href="/methodology/paying-taxes">Paying Taxes</a>
+              <a class = "nav-link" href="/methodology/land-space-use">Land and Space Use</a>
+              <a class = "nav-link" href="/methodology/resolving-insolvency">Resolving Insolvency</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/methodology.PNG"/></p>
+
+  <!--Create Containers-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 id="land-and-space-use">Land and Space Use</h1>
+        <p>&#39;Land and Space Use&#39; is a new, experimental category for the 2nd Version of the DBNA Project. It hopes to capture information related to zoning requirements, how land and space are used, and the difficulties a person would face when requesting changes to how this land and space is used.</p>
+        <p>Due to the aggressive timeline to collect these final pieces of information, we have broken down the indicators we&#39;re interested in collecting into three different tiers: Tier 1 (the highest priority indicators), Tier 2 (a list of medium priority indicators), and Tier 3 (the lowest priority indicators). While working on this section, we are hoping to collect all indicators in Tier 1, ideally all indicators in Tier 2, and if time allows, as many indicators in Tier 3 as possible.</p>
+        <h3 id="reliability-of-infrastructure-index-scale-0-2-">RELIABILITY OF INFRASTRUCTURE INDEX (SCALE: 0 - 2)</h3>
+        <p>The Reliability of Infrastructure Index has two components:</p>
+        <ol>
+        <li>How land titles are kept at the registry. A score of 1 is assigned if the majority of land titles are fully digital; a score of 0.5 is assigned if the majority are scanned; a score of 0 is assigned if the majority are kept in paper format.</li>
+        <li>How immovable property is identified. A score of 1 is assigned if there is a unique number to identify properties for the majority of land plots; a score of 0 is assigned if there are multiple identifiers.</li>
+        </ol>
+        <p>The index ranges from 0 to 2, with higher values indicating a higher quality of infrastructure for ensuring the reliability of information on property titles and boundaries.</p>
+        <h3 id="transparency-of-information-index-scale-0-6-">TRANSPARENCY OF INFORMATION INDEX (SCALE: 0 – 6)</h3>
+        <p>The Transparency of Information Index has six components:</p>
+        <ol>
+        <li>Whether information on land ownership is made publicly available. A score of 1 is assigned if information on land ownership is accessible by anyone; a score of 0 is assigned if access is restricted.</li>
+        <li>Whether the list of documents required for completing the registration of property transactions is made publicly available. A score of 1 is assigned if the list of documents is accessible online or on a public board; a score of 0 is assigned if it is not made available to the public or if it can be obtained only in person.</li>
+        <li>Whether the fee schedule for completing the registration of property transactions is made publicly available. A score of 1 is assigned if the fee schedule is accessible online or on a public board free of charge; a score of 0 is assigned if it is not made available to the public or if it can be obtained only in person.</li>
+        <li>Whether the agency in charge of immovable property registration commits to a specific time frame for delivering a legally binding document that proves property ownership. A score of 1 is assigned if the service standard is accessible online or on a public board; a score of 0 is assigned if it is not made available to the public or if it can be obtained only in person.</li>
+        <li>Whether there is a specific and independent mechanism for filing complaints about a problem that occurred at the agency in charge of immovable property registration. A score of 1 is assigned if there is a specific and independent mechanism for filing a complaint; a score of 0 is assigned if there is only a general mechanism or no mechanism.</li>
+        <li>Whether the deed required to legally transfer title on immovable property can be processed online. A score of 1 is assigned if the deed is able to be processed online (such as through eRecording); a score of 0 is assigned if the deed must be processed in person.</li>
+        </ol>
+        <p>The index ranges from 0 to 6, with higher values indicating greater transparency in the land administration system.</p>
+        <h2 id="tier-1-indicators-top-priority-for-data-collection-">Tier 1 Indicators (Top Priority for Data-Collection)</h2>
+        <h3 id="-b-indicator-1-parking-lot-minimums-b-"><b>Indicator 1: Parking Lot Minimums</b></h3>
+        <p>This indicator aims to measure whether there is a local ordinance for the minimum requirement for parking lot sizes (a floor for how small a parking lot is allowed to be). This is generally a requirement for local businesses and is determined by city ordinances.</p>
+        <p>One year ago, we collected data for nearly every U.S. city in the first version of DBNA. Our objective is to make sure that this data has not changed within the last year (highly unlikely to have changed), make sure the original sources are up to the standards we&#39;ve created this year (Official Source Name, Source Link/URL), and to collect data for the missing / new locations added in DBNA Version 2.</p>
+        <p>Our data from last year can be found <a href="https://github.com/PaulBernert/DBNA/blob/master/_data/2020-report/Parking%20Requirements%20-%20Zoning%20Permits%20and%20Land%20Use.xlsx">here</a>. It&#39;s not going to show up, but if you click the Download button, you should have a local copy. We will want to transition the data from this spreadsheet onto QuickBase. While doing this, please make sure to check to make sure things are still up-to-date, and make sure the sourcing is up to our new standard!</p>
+        <h3 id="-b-indicator-2-wharton-index-survey-question-2-b-"><b>Indicator 2: Wharton Index Survey Question #2</b></h3>
+        <p>Access to the Wharton Index can be found <a href="http://realestate.wharton.upenn.edu/wp-content/uploads/2017/03/558.pdf">here</a>. Survey Question #2 is on Page 49 (Page 51 in PDF Viewer).</p>
+        <p>Question 2 of the Wharton Index Survey asks which of the following are required to approve zoning changes in your local jurisdiction. There is a second part to the question (by what vote), but we are not interested in that portion of information. We are simply checking which entity is responsible for approving zoning changes.</p>
+        <h4 id="example-of-how-to-collect-this-data">Example of How To Collect This Data</h4>
+        <p>I imagine the simplest way to find this information is to search for a city&#39;s municipal codes (for example, a Google search for &#39;Phoenix Zoning Municipal Codes&#39; returns <a href="https://phoenix.municipal.codes/ZO">this</a> as it&#39;s first result. On this site, we can click on Chapter 3, titled &#39;Decisionmaking and Administrative Bodies&#39;.</p>
+        <p>We can see that there is a Board of Adjustment (Section 303) and a Zoning Administrator (Section 307). After briefly reading over, we can see that the Board of Adjustment is responsible for appeals and tasks delegated by the Zoning Administrator, so that&#39;s <b>NOT</b> necessarily a step required to approve zoning changes. However, the Zoning Administrator is in charge of approving zoning permits. This administrator is comissioned by the Planning and Development Director. Therfore, I would consider Phoenix AZ to require &#39;Local Council, Managers, and Commissioners&#39;.</p>
+        <p>The definitions between the different options aren&#39;t that clear, so I&#39;m working on a better write-up of the differences with the help of Steve Slivinski. I hope to have this section finished soon!</p>
+        <h3 id="-b-indicator-3-wharton-index-survey-question-3-b-"><b>Indicator 3: Wharton Index Survey Question #3</b></h3>
+        <p>This also comes from the <a href="http://realestate.wharton.upenn.edu/wp-content/uploads/2017/03/558.pdf">Wharton Index</a>. Survey Question #3 is on Page 50 (Page 52 in PDF Viewer).</p>
+        <p>Question 3 of the Wharton Index Survey asks which of the following are required to approve a new project that does not need rezoning. There is a second part to the question (by what vote), but we are not interested in that portion of information. We are simply checking which entity is responsible for approving zoning changes that don&#39;t require rezoning.</p>
+        <h4 id="example-of-how-to-collect-this-data">Example of How to Collect This Data</h4>
+        <p>This question is very similar to the previous indicator, with the only difference being that this one is looking for approval changes that don&#39;t require rezoning. The contents will generally be found in the same location as the previous indicator (the city&#39;s <a href="https://phoenix.municipal.codes/ZO/3">municipal codes</a>). If there is a mention of anything related to exceptions surrounding rezoning specifically, then that information is the correct value for the previous indicator. I suspect a lot of the values for this indicator and the previous indicator will be identical, but the goal is to measure if there is any difference between the approval process of things that require rezoning and things that do not.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
