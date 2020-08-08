@@ -1,81 +1,81 @@
-States,Cities,Cluster,Rank,Score
-Alabama,Birmingham,6,46,74.08846446
-Alaska,Anchorage,2,52,72.89597221
-Arizona,Mesa,8,58,71.52893723
-Arizona,Phoenix,0,59,71.42798253
-Arizona,Tuscon,7,69,69.05638147
-Arkansas,Little Rock,7,21,77.5545241
-California,Los Angeles,6,81,64.85413085
-California,San Diego,1,77,66.78188696
-California,San Francisco,1,65,70.36609079
-California,San Jose,5,79,65.85463395
-Colorado,Aurora,0,31,76.30398833
-Colorado,Colorado Springs,0,8,80.15973703
-Colorado,Denver,5,14,78.23389704
-Connecticut,Bridgeport,9,61,71.30679392
-Delaware,Wilmington,3,64,70.70659989
-District of Columbia,Washington D.C.,7,66,69.84199651
-Florida,Jacksonville,5,28,76.4895009
-Florida,Miami,9,33,76.20167435
-Florida,Orlando,5,15,77.98265604
-Florida,Tampa,2,27,76.84372523
-Georgia,Atlanta,5,12,78.33943824
-Hawaii,Honolulu,2,40,74.48979122
-Idaho,Boise,6,19,77.60222933
-Illinois,Chicago,5,39,74.79510646
-Indiana,Indianapolis,9,62,71.21146494
-Iowa,Des Moines,5,44,74.12562924
-Kansas,Wichita,2,36,75.03477502
-Kentucky,“Lexington-Fayette County”,1,11,79.46822939
-Kentucky,Louisville,3,18,77.77391367
-Louisiana,New Orleans,0,56,72.34677619
-Maine,Portland,5,73,67.64593549
-Maryland,Baltimore,4,53,72.85209408
-Massachusetts,Boston,9,68,69.25871093
-Michigan,Detroit,5,57,71.80340876
-Michigan,Grand Rapids,0,47,73.84114977
-Minnesota,Minneapolis,9,63,71.09133777
-Minnesota,St. Paul,5,54,72.72016692
-Mississippi,Jackson,0,2,81.39343828
-Missouri,Kansas City,5,32,76.25708369
-Missouri,St. Louis,1,26,76.95352624
-Montana,Billings,1,30,76.4238616
-Nebraska,Lincoln,6,43,74.3082555
-Nebraska,Omaha,8,45,74.11592755
-Nevada,Henderson,8,34,76.04413981
-Nevada,Las Vegas,5,50,73.05165885
-New Hampshire,Manchester,9,24,77.19736221
-New Jersey,Newark,6,76,66.90137974
-New Mexico,Albuquerque,8,17,77.79136751
-New York,Buffalo,0,74,67.19538121
-New York,New York City,9,80,64.86307694
-New York,Rochester,6,70,68.57250182
-North Carolina,Charlotte,5,38,74.88126158
-North Carolina,Greensboro,0,35,75.12875335
-North Carolina,Raleigh,5,1,82.42039934
-North Dakota,Fargo,6,48,73.1806271
-Ohio,Cincinnati,1,9,79.74968935
-Ohio,Cleveland,3,51,72.99018817
-Ohio,Columbus,1,25,77.07009682
-Oklahoma,Oklahoma City,2,16,77.93745423
-Oklahoma,Tulsa,6,3,81.25461709
-Oregon,Portland,4,72,67.88692688
-Pennsylvania,Philadelphia,0,71,68.40386163
-Pennsylvania,Pittsburgh,5,67,69.74116241
-Rhode Island,Providence,6,75,66.97271297
-South Carolina,Charleston,6,5,80.69348463
-South Dakota,Sioux Falls,0,4,81.17118264
-Tennessee,Memphis,5,22,77.28769069
-Tennessee,Nashville,6,20,77.57480711
-Texas,Austin,8,42,74.37801125
-Texas,Dallas,3,41,74.45662029
-Texas,Houston,3,6,80.63678255
-Texas,San Antonio,6,7,80.57589755
-Utah,Salt Lake City,6,23,77.23025872
-Vermont,Burlington,6,60,71.3949293
-Virginia,Arlington,5,37,74.95044586
-Virginia,Virginia Beach,8,29,76.48256125
-Washington,Seattle,2,49,73.05677931
-West Virginia,Charleston,9,55,72.39991189
-Wisconsin,Milwaukee,2,13,78.27124601
-Wyoming,Cheyenne,0,10,79.65414171
+States,Cities,Clusters,Rank,Score,Activity
+Alabama,Birmingham,10,46,74.08846446,12.98039458
+Alaska,Anchorage,0,52,72.89597221,38.67064597
+Arizona,Mesa,1,58,71.52893723,8.212311416
+Arizona,Phoenix,1,59,71.42798253,26.78938282
+Arizona,Tuscon,1,69,69.05638147,42.48502062
+Arkansas,Little Rock,2,21,77.5545241,16.90857045
+California,Los Angeles,3,81,64.85413085,14.47621673
+California,San Diego,3,77,66.78188696,23.81270143
+California,San Francisco,3,65,70.36609079,9.72556511
+California,San Jose,3,79,65.85463395,29.45722047
+Colorado,Aurora,10,31,76.30398833,6.476258071
+Colorado,Colorado Springs,11,8,80.15973703,38.29914114
+Colorado,Denver,4,14,78.23389704,12.40313674
+Connecticut,Bridgeport,7,61,71.30679392,7.584005025
+Delaware,Wilmington,8,64,70.70659989,0.707815177
+District of Columbia,Washington D.C.,1,66,69.84199651,7.159574788
+Florida,Jacksonville,4,28,76.4895009,35.82312143
+Florida,Miami,4,33,76.20167435,3.087940407
+Florida,Orlando,4,15,77.98265604,6.445429525
+Florida,Tampa,5,27,76.84372523,7.188020271
+Georgia,Atlanta,10,12,78.33943824,5.211300617
+Hawaii,Honolulu,0,40,74.48979122,24.78751338
+Idaho,Boise,5,19,77.60222933,18.20706669
+Illinois,Chicago,7,39,74.79510646,15.49860249
+Indiana,Indianapolis,5,62,71.21146494,30.81905744
+Iowa,Des Moines,5,44,74.12562924,21.78332496
+Kansas,Wichita,4,36,75.03477502,41.89141197
+Kentucky,“Lexington-Fayette County”,5,11,79.46822939,39.94818014
+Kentucky,Louisville,5,18,77.77391367,34.57200201
+Louisiana,New Orleans,6,56,72.34677619,19.33185009
+Maine,Portland,8,73,67.64593549,5.206726246
+Maryland,Baltimore,1,53,72.85209408,13.45365429
+Massachusetts,Boston,6,68,69.25871093,7.88850653
+Michigan,Detroit,2,57,71.80340876,9.844458429
+Michigan,Grand Rapids,10,47,73.84114977,12.83689171
+Minnesota,Minneapolis,7,63,71.09133777,6.623945066
+Minnesota,St. Paul,7,54,72.72016692,4.791115194
+Mississippi,Jackson,11,2,81.39343828,19.60672549
+Missouri,Kansas City,5,32,76.25708369,14.07007608
+Missouri,St. Louis,5,26,76.95352624,5.808170311
+Montana,Billings,10,30,76.4238616,25.51828558
+Nebraska,Lincoln,5,43,74.3082555,47.67767087
+Nebraska,Omaha,10,45,74.11592755,30.54148187
+Nevada,Henderson,8,34,76.04413981,10.60618486
+Nevada,Las Vegas,8,50,73.05165885,22.0278148
+New Hampshire,Manchester,4,24,77.19736221,15.86423234
+New Jersey,Newark,9,76,66.90137974,0.624387156
+New Mexico,Albuquerque,10,17,77.79136751,47.21999326
+New York,Buffalo,9,74,67.19538121,14.16200685
+New York,New York City,9,80,64.86307694,18.59009002
+New York,Rochester,9,70,68.57250182,12.37308061
+North Carolina,Charlotte,5,38,74.88126158,22.50446221
+North Carolina,Greensboro,2,35,75.12875335,26.09082861
+North Carolina,Raleigh,11,1,82.42039934,21.56799485
+North Dakota,Fargo,5,48,73.1806271,28.29646419
+Ohio,Cincinnati,13,9,79.74968935,11.0629547
+Ohio,Cleveland,13,51,72.99018817,11.66331368
+Ohio,Columbus,13,25,77.07009682,35.97037843
+Oklahoma,Oklahoma City,10,16,77.93745423,26.82348322
+Oklahoma,Tulsa,11,3,81.25461709,24.92652731
+Oregon,Portland,8,72,67.88692688,13.57488776
+Pennsylvania,Philadelphia,12,71,68.40386163,15.87423968
+Pennsylvania,Pittsburgh,12,67,69.74116241,8.000850453
+Rhode Island,Providence,0,75,66.97271297,6.165681084
+South Carolina,Charleston,11,5,80.69348463,11.31013867
+South Dakota,Sioux Falls,11,4,81.17118264,36.23889221
+Tennessee,Memphis,2,22,77.28769069,46.20210197
+Tennessee,Nashville,5,20,77.57480711,25.71204028
+Texas,Austin,8,42,74.37801125,28.75794811
+Texas,Dallas,7,41,74.45662029,3.270145948
+Texas,Houston,13,6,80.63678255,25.410046
+Texas,San Antonio,13,7,80.57589755,55.64876153
+Utah,Salt Lake City,4,23,77.23025872,9.105356332
+Vermont,Burlington,0,60,71.3949293,8.896515968
+Virginia,Arlington,14,37,74.95044586,2.358589053
+Virginia,Virginia Beach,8,29,76.48256125,19.44073066
+Washington,Seattle,12,49,73.05677931,10.15312381
+West Virginia,Charleston,8,55,72.39991189,15.90801887
+Wisconsin,Milwaukee,4,13,78.27124601,24.84159953
+Wyoming,Cheyenne,10,10,79.65414171,27.29705506

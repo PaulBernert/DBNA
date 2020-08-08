@@ -1,0 +1,81 @@
+,States,Cities,Clusters
+0,Alaska,Anchorage,0
+1,Hawaii,Honolulu,0
+2,Rhode Island,Providence,0
+3,Vermont,Burlington,0
+4,Arizona,Mesa,1
+5,Arizona,Phoenix,1
+6,Arizona,Tuscon,1
+7,District of Columbia,Washington D.C.,1
+8,Maryland,Baltimore,1
+9,Arkansas,Little Rock,2
+10,Michigan,Detroit,2
+11,North Carolina,Greensboro,2
+12,Tennessee,Memphis,2
+13,California,Los Angeles,3
+14,California,San Diego,3
+15,California,San Francisco,3
+16,California,San Jose,3
+17,Colorado,Denver,4
+18,Florida,Jacksonville,4
+19,Florida,Miami,4
+20,Florida,Orlando,4
+21,Kansas,Wichita,4
+22,New Hampshire,Manchester,4
+23,Utah,Salt Lake City,4
+24,Wisconsin,Milwaukee,4
+25,Florida,Tampa,5
+26,Idaho,Boise,5
+27,Indiana,Indianapolis,5
+28,Iowa,Des Moines,5
+29,Kentucky,“Lexington-Fayette County”,5
+30,Kentucky,Louisville,5
+31,Missouri,Kansas City,5
+32,Missouri,St. Louis,5
+33,Nebraska,Lincoln,5
+34,North Carolina,Charlotte,5
+35,North Dakota,Fargo,5
+36,Tennessee,Nashville,5
+37,Louisiana,New Orleans,6
+38,Massachusetts,Boston,6
+39,Connecticut,Bridgeport,7
+40,Illinois,Chicago,7
+41,Minnesota,Minneapolis,7
+42,Minnesota,St. Paul,7
+43,Texas,Dallas,7
+44,Delaware,Wilmington,8
+45,Maine,Portland,8
+46,Nevada,Henderson,8
+47,Nevada,Las Vegas,8
+48,Oregon,Portland,8
+49,Texas,Austin,8
+50,Virginia,Virginia Beach,8
+51,West Virginia,Charleston,8
+52,New Jersey,Newark,9
+53,New York,Buffalo,9
+54,New York,New York City,9
+55,New York,Rochester,9
+56,Alabama,Birmingham,10
+57,Colorado,Aurora,10
+58,Georgia,Atlanta,10
+59,Michigan,Grand Rapids,10
+60,Montana,Billings,10
+61,Nebraska,Omaha,10
+62,New Mexico,Albuquerque,10
+63,Oklahoma,Oklahoma City,10
+64,Wyoming,Cheyenne,10
+65,Colorado,Colorado Springs,11
+66,Mississippi,Jackson,11
+67,North Carolina,Raleigh,11
+68,Oklahoma,Tulsa,11
+69,South Carolina,Charleston,11
+70,South Dakota,Sioux Falls,11
+71,Pennsylvania,Philadelphia,12
+72,Pennsylvania,Pittsburgh,12
+73,Washington,Seattle,12
+74,Ohio,Cincinnati,13
+75,Ohio,Cleveland,13
+76,Ohio,Columbus,13
+77,Texas,Houston,13
+78,Texas,San Antonio,13
+79,Virginia,Arlington,14
