@@ -11,8 +11,9 @@
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="https://dbna.herokuapp.com/">Home</a>
+    <a class="navbar-brand" href="https://dbna.herokuapp.com/eodb">Ease of Doing Business</a>
     <a class="navbar-brand" href="https://dbna.herokuapp.com//analysis">Analysis</a>
-    <a class="navbar-brand" href="https://dbna.herokuapp.com//clustering">Clustering</a>
+    <a class="navbar-brand" href="https://dbna.herokuapp.com/clustering">Clustering</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -72,8 +73,8 @@
       <p>While an interesting graph, it creates a new set of clusters that contradict and conflict with our previously-determined clustering. However, it does create the foundation for some analysis we can do using the correct clusters. We can continue to use our correct set of clusters to determine whether clusters form around ranks and scores like we initially anticipated. That results in the following visualization:</p>
       <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_activity.png"/></p>
       <p>With this visualization, have reached the final results of analysis on this particular project. All further analysis is done using the results found here. Notice how it appears clusters are formed not around local dots, but across the horizontal spectrum (the top 10% of the graph is Green, the next 10% is Yellow, the following 10% is Dark Blue, etc.). This behavior indicates that clusters do indeed form around <em>&#39;Ease of Doing Business&#39;</em> Scores. However, it is apparent that it&#39;s not a perfect correlation between Rank and Cluster. Observe the following two visualizations, using the exact same data but split into two different methods:</p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_cluster.png" width="400"/>
-      &lt;img src=&quot;<a href="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_rank.png">https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_rank.png</a>&quot; width=&quot;400/&gt;</p>
+      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_cluster.png" width="400"/></p>
+      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_rank.png" width="400"/></p>
       <p>With a correlation coefficient of roughly 30%, there is clearly some relationship between the clusters and the different parameters tested in this question of the analysis. It&#39;s hard to say for sure though, since this is simply three dimensions of the data-set, and they are clusters and averages of much more dynamic data. </p>
       <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/graph3d.png"/></p>
       <p>It&#39;s difficult to take three massive sections of data and assume that these things are the sole cause of one another, as there can simply be correlation without causation. Like with the previous research question, this is simply the beginning of the potential analysis that can be done with the Doing Business North America dataset, and I encourage the reader to take this dataset and conduct your own research to see what interesting results you can find!</p>

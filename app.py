@@ -22,7 +22,7 @@ def analysis():
 def clustering():
     return render_template("clustering.html")
 
-@app.route("/methodology/ease-of-doing-business")
+@app.route("/ease-of-doing-business")
 def methodology_eodb():
     return render_template("methodology_eodb.html")
 
