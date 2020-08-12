@@ -38,55 +38,148 @@
   <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/dbnaHeading.PNG"/></p>
 
   <div class="container">
+
     <div class="text">
+
       <h1 id="research-question-2">Research Question #2</h1>
-      <h2 id="question-what-new-information-can-clustering-provide-">Question: What New Information Can Clustering Provide?</h2>
-      <p>This question is intentionally open-ended, because it allows us to tackle multiple problems. First and foremost, does the DBNA Data cluster in a way that is coherent? Does clustering the data or clustering the scores (post-linear transformation) provide more interesting results? What clusters provide the most interesting results (by category, by all indicators, etc.)? If the data is able to be clustered, are clusters formed around the <em>&#39;Ease of Doing Business&#39;</em> Scores/Ranks, or at least correlate with them? Do different clustering methods produce the same results, and if not, which clustering algorithm is best? There are many different questions that can be be answered, and my goal is to tackle as many of them as possible. Due to time constraints, we will focus on general outcomes and answering the questions proposed above.</p>
-      <h3 id="clustering-method-kmeans-vs-affinity-propagation">Clustering Method - KMeans vs Affinity Propagation</h3>
-      <p>Before beginning a deep dive into the clustering, I wanted to test different algorithms to see which one produced the most accurate results. The two methods I was primarily interested in testing were KMeans clustering (a clustering method we&#39;ve talked about in class) and Affinity Propagation (a different method of clustering that Scikit-learn can handle). KMeans is a nice introductory method of clustering because it simply calculates the Euclidean distances between different points. After assigning the number of clusters (the bulk of the &quot;art&quot; for this clustering method), you can get some interesting results. However, I believe that Affinity Propagation is a better clustering method for data that&#39;s as dynamic and varied as what&#39;s found in this particular data-set. Some indicators simply calculate number of procedures (ranging from values such as 3 to 13), while others are dollar values with massive distances ($10 to $100,000). Affinity Propagation easily allows for the inclusion of a weighting system, allowing data to be slightly more normalized. As a result, it is the method that I plan to use for all further clustering analysis.</p>
-      <h3 id="clustering-raw-data-vs-normalized-data">Clustering Raw Data vs Normalized Data</h3>
-      <p>The Ease of Doing Business data is very dynamic, and as a result, even after switching to Affinity Propagation to use weighted values in clustering, there is still issues with the scales on some values. Take the <em>&#39;Land and Space Use&#39;</em> category for example. In this category, there are some indicators with values that are averaged around 100 (with most values between 0 and 200). However, the Affinity Propagation method uses the Maximum Value when calculating the distance between points, and the distance matrix ends up looking something like this:</p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/lsuDistanceMatrixRawData.PNG" width="1200"/></p>
-      <p>Using the Maximum Values has an obvious limitation in that outliers can have a dramatic impact on the scale in which the distance matrices are calculated. One of the most intuitive ways to fix this problem is to omit the outliers and adjust the scale in which Affinity Propagation is calculating values. Fortunately, we have already done this when answering Research Question #1. We have taken the data and applied a basic linear transformation to get the values to always be between 0 and 10 (where 0 is a bad outcome and 10 is a favorable outcome). When doing this linear transformation, we also removed outliers, so the data is not only more accurate but also easier to work with. When applying the same clustering technique on the <strong>exact</strong> same data (but after doing a simple transformation on the data), the results are a lot more interesting and digestible:</p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/lsuDistanceMatrix.png"/></p>
-      <p>This graph produces results that are a lot more interesting. You can now begin to see some clusters forming within the distance matrix (areas with dark blue values), and begin to see which locations do not cluster well together at all (areas with yellow values). This process is then repeated for the other five categories (you can see those images <a href="https://github.com/PaulBernert/DBNA/tree/master/images">here</a>).</p>
-      <h5 id="other-category-previews-">Other Category Previews:</h5>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/sabDistanceMatrix.png" width="300"/></p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/geDistanceMatrix.png" width="300"/></p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/ptDistanceMatrix.png" width="300"/></p>
-      <h3 id="clustering-normalized-data-across-all-categories">Clustering Normalized Data Across ALL Categories</h3>
-      <p>With every category individually clustered, the next test was to see whether clusters can be formed across all categories. The distances for each individual category generally had a small range (sometimes 0-1, sometimes 0-4), so my initial hypothesis was that the categories would be able to cluster (albeit some of the clustering would look forced due to high distances between points). However, after using Affinity Propagation to do clustering, these were the results:</p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/allDistanceMatrix.png"/></p>
-      <p>I think the results are quite interesting. It&#39;s clear that clusters do indeed form, and the average distance between locales isn&#39;t as bad as initially predicted. The range of the distances goes from 0 to 7, which isn&#39;t absurd given the high variance for distances between some of the categories. Affinity Propagation produces the following clusters:</p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/clusters.PNG"/></p>
-      <h3 id="cluster-analysis">Cluster Analysis</h3>
-      <p>With the clusters assigned, one of the objectives was to solve whether there was a relationship between clusters and the &#39;<em>Ease of Doing Business</em>&#39; Rank and Score. Ideally, the clusters are created around the <em>&#39;Ease of Doing Business</em>&#39; Scores, where Cluster 1 contains cities with the highest Score, Cluster 2 the 2nd highest Scores, etc. Previous analysis confirmed that the DBNA data does indeed reflect where there is relatively higher amounts of business activity, so by transfer-ability, we should expect to see clusters form around the calculated Ranks and Scores. To test this, we need the following parameters:</p>
-      <ol>
-      <li>Location (State, City)</li>
-      <li><em>&#39;Ease of Doing Business&#39;</em> Score</li>
-      <li><em>&#39;Ease of Doing Business&#39;</em> Rank</li>
-      <li>Cluster Number</li>
-      <li>Relative Business Activity</li>
-      </ol>
-      <p>Using these five parameters, we now have everything to begin testing clustering methods. However, it is important to recognize that our clustering is around pre-determined groups based on the distance matrices calculated in the analysis above. It is <strong>NOT</strong> clustering around our previous research question, where we calculated points for the &#39;<em>Ease of Doing Business</em>&#39; Score against Relative Business Activity. That clustering would produce these results:</p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/kmeansClustering.png"/></p>
-      <p>While an interesting graph, it creates a new set of clusters that contradict and conflict with our previously-determined clustering. However, it does create the foundation for some analysis we can do using the correct clusters. We can continue to use our correct set of clusters to determine whether clusters form around ranks and scores like we initially anticipated. That results in the following visualization:</p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_activity.png"/></p>
-      <p>With this visualization, have reached the final results of analysis on this particular project. All further analysis is done using the results found here. Notice how it appears clusters are formed not around local dots, but across the horizontal spectrum (the top 10% of the graph is Green, the next 10% is Yellow, the following 10% is Dark Blue, etc.). This behavior indicates that clusters do indeed form around <em>&#39;Ease of Doing Business&#39;</em> Scores. However, it is apparent that it&#39;s not a perfect correlation between Rank and Cluster. Observe the following two visualizations, using the exact same data but split into two different methods:</p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_cluster.png" width="400"/></p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_rank.png" width="400"/></p>
-      <p>With a correlation coefficient of roughly 30%, there is clearly some relationship between the clusters and the different parameters tested in this question of the analysis. It&#39;s hard to say for sure though, since this is simply three dimensions of the data-set, and they are clusters and averages of much more dynamic data. </p>
-      <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/graph3d.png"/></p>
-      <p>It&#39;s difficult to take three massive sections of data and assume that these things are the sole cause of one another, as there can simply be correlation without causation. Like with the previous research question, this is simply the beginning of the potential analysis that can be done with the Doing Business North America dataset, and I encourage the reader to take this dataset and conduct your own research to see what interesting results you can find!</p>
+
+        <h2 id="question-what-new-information-can-clustering-provide-">Question: What New Information Can Clustering Provide?</h2>
+
+          <p>This question is intentionally open-ended, because it allows us to tackle multiple problems. First and foremost, does
+            the DBNA Data cluster in a way that is coherent? Does clustering the data or clustering the scores (post-linear
+            transformation) provide more interesting results? What clusters provide the most interesting results (by category, by
+            all indicators, etc.)? If the data is able to be clustered, are clusters formed around the <em>&#39;Ease of Doing Business&#39;</em>
+            Scores/Ranks, or at least correlate with them? Do different clustering methods produce the same results, and if not, which
+            clustering algorithm is best? There are many different questions that can be be answered, and my goal is to tackle as many of
+            them as possible. Due to time constraints, we will focus on general outcomes and answering the questions proposed above.</p>
+
+        <h3 id="clustering-method-kmeans-vs-affinity-propagation">Clustering Method - KMeans vs Affinity Propagation</h3>
+
+          <p>Before beginning a deep dive into the clustering, I wanted to test different algorithms to see which one produced the most accurate
+              results. The two methods I was primarily interested in testing were KMeans clustering (a clustering method we&#39;ve talked about in
+              class) and Affinity Propagation (a different method of clustering that Scikit-learn can handle). KMeans is a nice introductory method
+              of clustering because it simply calculates the Euclidean distances between different points. After assigning the number of clusters
+              (the bulk of the &quot;art&quot; for this clustering method), you can get some interesting results. However, I believe that Affinity
+              Propagation is a better clustering method for data that&#39;s as dynamic and varied as what&#39;s found in this particular data-set.
+              Some indicators simply calculate number of procedures (ranging from values such as 3 to 13), while others are dollar values with
+              massive distances ($10 to $100,000). Affinity Propagation easily allows for the inclusion of a weighting system, allowing data to
+              be slightly more normalized. As a result, it is the method that I plan to use for all further clustering analysis.</p>
+
+        <h3 id="clustering-raw-data-vs-normalized-data">Clustering Raw Data vs Normalized Data</h3>
+
+          <p>The Ease of Doing Business data is very dynamic, and as a result, even after switching to Affinity Propagation to use weighted
+              values in clustering, there is still issues with the scales on some values. Take the <em>&#39;Land and Space Use&#39;</em> category
+              for example. In this category, there are some indicators with values that are averaged around 100 (with most values between 0 and 200).
+              However, the Affinity Propagation method uses the Maximum Value when calculating the distance between points, and the
+              distance matrix ends up looking something like this:</p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/lsuDistanceMatrixRawData.PNG" width="1200"/></p>
+
+          <p>Using the Maximum Values has an obvious limitation in that outliers can have a dramatic impact on the scale in which the
+              distance matrices are calculated. One of the most intuitive ways to fix this problem is to omit the outliers and adjust the
+              scale in which Affinity Propagation is calculating values. Fortunately, we have already done this when answering Research
+              Question #1. We have taken the data and applied a basic linear transformation to get the values to always be between 0
+              and 10 (where 0 is a bad outcome and 10 is a favorable outcome). When doing this linear transformation, we also removed
+              outliers, so the data is not only more accurate but also easier to work with. When applying the same clustering technique
+              on the <strong>exact</strong> same data (but after doing a simple transformation on the data), the results
+              are a lot more interesting and digestible:</p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/lsuDistanceMatrix.png"/></p>
+
+          <p>This graph produces results that are a lot more interesting. You can now begin to see some clusters forming within
+              the distance matrix (areas with dark blue values), and begin to see which locations do not cluster well together
+              at all (areas with yellow values). This process is then repeated for the other five categories (you can see those
+              images <a href="https://github.com/PaulBernert/DBNA/tree/master/images">here</a>).</p>
+
+        <h5 id="other-category-previews-">Other Category Previews:</h5>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/sabDistanceMatrix.png" width="300"/></p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/geDistanceMatrix.png" width="300"/></p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/ptDistanceMatrix.png" width="300"/></p>
+
+        <h3 id="clustering-normalized-data-across-all-categories">Clustering Normalized Data Across ALL Categories</h3>
+
+          <p>With every category individually clustered, the next test was to see whether clusters can be formed across all
+            categories. The distances for each individual category generally had a small range (sometimes 0-1, sometimes 0-4),
+            so my initial hypothesis was that the categories would be able to cluster (albeit some of the clustering would look
+            forced due to high distances between points). However, after using Affinity Propagation to do clustering, these were the results:</p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/allDistanceMatrix.png"/></p>
+
+          <p>I think the results are quite interesting. It&#39;s clear that clusters do indeed form, and the average distance
+            between locales isn&#39;t as bad as initially predicted. The range of the distances goes from 0 to 7, which isn&#39;t
+            absurd given the high variance for distances between some of the categories. Affinity Propagation produces the following clusters:</p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/clusters.PNG"/></p>
+
+        <h3 id="cluster-analysis">Cluster Analysis</h3>
+
+          <p>With the clusters assigned, one of the objectives was to solve whether there was a relationship between clusters
+            and the &#39;<em>Ease of Doing Business</em>&#39; Rank and Score. Ideally, the clusters are created around
+            the <em>&#39;Ease of Doing Business</em>&#39; Scores, where Cluster 1 contains cities with the highest Score, Cluster 2
+            the 2nd highest Scores, etc. Previous analysis confirmed that the DBNA data does indeed reflect where there is relatively
+            higher amounts of business activity, so by transfer-ability, we should expect to see clusters form around the calculated
+            Ranks and Scores. To test this, we need the following parameters:</p>
+
+          <ol>
+
+            <li>Location (State, City)</li>
+
+            <li><em>&#39;Ease of Doing Business&#39;</em> Score</li>
+
+            <li><em>&#39;Ease of Doing Business&#39;</em> Rank</li>
+
+            <li>Cluster Number</li>
+
+            <li>Relative Business Activity</li>
+
+          </ol>
+
+          <p>Using these five parameters, we now have everything to begin testing clustering methods. However, it is important to recognize
+            that our clustering is around pre-determined groups based on the distance matrices calculated in the analysis above. It
+            is <strong>NOT</strong> clustering around our previous research question, where we calculated points for the &#39;<em>Ease of
+              Doing Business</em>&#39; Score against Relative Business Activity. That clustering would produce these results:<p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/kmeansClustering.png"/></p>
+
+          <p>While an interesting graph, it creates a new set of clusters that contradict and conflict with our previously-determined
+            clustering. However, it does create the foundation for some analysis we can do using the correct clusters. We can continue
+            to use our correct set of clusters to determine whether clusters form around ranks and scores like we initially anticipated.
+            That results in the following visualization:</p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_activity.png"/></p>
+
+          <p>With this visualization, have reached the final results of analysis on this particular project. All further analysis
+            is done using the results found here. Notice how it appears clusters are formed not around local dots, but across the
+            horizontal spectrum (the top 10% of the graph is Green, the next 10% is Yellow, the following 10% is Dark Blue, etc.).
+            This behavior indicates that clusters do indeed form around <em>&#39;Ease of Doing Business&#39;</em> Scores. However,
+            it is apparent that it&#39;s not a perfect correlation between Rank and Cluster. Observe the following two visualizations,
+            using the exact same data but split into two different methods:</p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_cluster.png" width="400"/></p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/eodb_vs_rank.png" width="400"/></p>
+
+          <p>With a correlation coefficient of roughly 30%, there is clearly some relationship between the clusters and the different
+            parameters tested in this question of the analysis. It&#39;s hard to say for sure though, since this is simply three dimensions
+            of the data-set, and they are clusters and averages of much more dynamic data. </p>
+
+          <p><img src="https://raw.githubusercontent.com/PaulBernert/DBNA/master/images/graph3d.png"/></p>
+
+          <p>It&#39;s difficult to take three massive sections of data and assume that these things are the sole cause of one another,
+            as there can simply be correlation without causation. Like with the previous research question, this is simply the beginning
+            of the potential analysis that can be done with the Doing Business North America dataset, and I encourage the reader to take
+            this dataset and conduct your own research to see what interesting results you can find!</p>
+
+      </div>
+
     </div>
-  </div>
 
-  <!-- Create Footer -->
+    <!-- Additional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-  </body>
+</body>
